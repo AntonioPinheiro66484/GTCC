@@ -1,0 +1,43 @@
+.barraAcessibilidade{
+    display: flex;
+    background-color: #950202;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.caixaNavegacao{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.caixaFerramentas{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    white-space: nowrap;
+
+}
+
+.item{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.item:hover{
+    text-decoration: underline;
+}
+
+.itemFerramenta{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.itemFerramenta:hover{
+    text-decoration: underline;
+}
