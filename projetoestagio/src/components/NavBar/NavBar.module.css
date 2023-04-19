@@ -1,0 +1,15 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #fff
+}
+
+.paiItens{
+    display: flex;
+
+}
+
+.item{
+    display: flex;
+}
