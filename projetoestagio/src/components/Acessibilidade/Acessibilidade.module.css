@@ -3,7 +3,6 @@
     background-color: #950202;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .caixaNavegacao{
@@ -17,7 +16,6 @@
     flex-direction: row;
     width: 25%;
     white-space: nowrap;
-
 }
 
 .item{
