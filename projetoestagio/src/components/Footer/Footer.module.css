@@ -1,0 +1,9 @@
+.caixa{
+    display:flex;
+    justify-content:center;
+}
+
+.logo{
+    width:50%;
+    height:50%;
+}
