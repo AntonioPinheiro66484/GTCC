@@ -6,6 +6,7 @@ import NavBar from '../../components/NavBar'
 import SearchBar from '../../components/SearchBar'
 import LogosFooter from '../../components/LogosFooter'
 import MapaFooter from '../../components/MapaFooter'
+import InfoFooter from '../../components/InfoFooter'
 
 const Home =()=>{
     return(
@@ -15,7 +16,8 @@ const Home =()=>{
             <NavBar></NavBar>
             <SearchBar></SearchBar>
             <MapaFooter></MapaFooter>
-            <LogosFooter></LogosFooter> 
+            <LogosFooter></LogosFooter>
+            <InfoFooter></InfoFooter>
         </div>
     )
 }
