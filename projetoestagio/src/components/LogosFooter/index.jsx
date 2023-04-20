@@ -3,7 +3,7 @@ import styles from './LogosFooter.module.css'
 import LogoFatec from '../../assets/images/LogoFatecZL.png'
 import LogoGoverno from '../../assets/images/LogoGovernoeCps.png'
 
-const Footer =()=>{
+const LogosFooter =()=>{
     return(
         <div className={styles.caixa}>
             <img className={styles.logoFatec} src={LogoFatec}/>
