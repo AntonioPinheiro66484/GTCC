@@ -12,4 +12,4 @@ const LogosFooter =()=>{
     )
 }
 
-export default Footer
+export default LogosFooter

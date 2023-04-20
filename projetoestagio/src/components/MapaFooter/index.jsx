@@ -15,4 +15,4 @@ const MapaFooter =()=>{
     )
 }
 
-export default Mapa
+export default MapaFooter
