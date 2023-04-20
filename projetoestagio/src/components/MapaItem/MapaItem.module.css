@@ -1,0 +1,17 @@
+.navBar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #fff
+}
+
+.paiItens{
+    display: flex;
+    justify-content: space-around;
+    gap: 3.5rem;
+}
+
+.item{
+    display: flex;
+    color: #757575;
+}
