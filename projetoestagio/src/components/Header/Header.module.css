@@ -1,9 +1,15 @@
 .caixa{
     display:flex;
     justify-content:center;
+    align-items: center;
 }
 
-.logo{
-    width: 75%;
-    height: 75%;
+.logoFatec{
+    width: 15%;
+    height: 15%;
+}
+
+.logoGoverno{
+    width: 45%;
+    height: 45%;
 }
