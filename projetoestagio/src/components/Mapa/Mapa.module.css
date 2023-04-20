@@ -1,7 +1,6 @@
 .caixa{
     display: flex;
-    background-color: #515151;
     align-items: center;
     justify-content: space-between;
-    height: 1.875rem;
+    
 }
