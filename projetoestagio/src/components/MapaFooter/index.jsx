@@ -1,7 +1,7 @@
 import React from "react"
 import styles from './MapaFooter.module.css'
 
-const Mapa =()=>{
+const MapaFooter =()=>{
     return(
         <div className={styles.caixa}>
             <ul>
