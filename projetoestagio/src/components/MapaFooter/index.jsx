@@ -1,5 +1,5 @@
 import React from "react"
-import styles from './Mapa.module.css'
+import styles from './MapaFooter.module.css'
 
 const Mapa =()=>{
     return(
