@@ -1,13 +1,13 @@
 import React from "react"
 import styles from './Footer.module.css'
-import LogoFatec from '../../../assets/images/LogoFatecZL.png'
-import LogoGoverno from '../../../assets/images/LogoGovernoeCps.png'
+import LogoFatec from '../../assets/images/LogoFatecZL.png'
+import LogoGoverno from '../../assets/images/LogoGovernoeCps.png'
 
 const Footer =()=>{
     return(
         <div className={styles.caixa}>
-            <img className={styles.logo} src={LogoFatec}></img>
-            <img className={styles.logo} src={LogoGoverno}></img>
+            <img className={styles.logoFatec} src={LogoFatec}/>
+            <img className={styles.logoGoverno} src={LogoGoverno}/>
         </div>
     )
 }
