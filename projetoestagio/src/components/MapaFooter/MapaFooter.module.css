@@ -1,5 +1,15 @@
 .caixa{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.caixaLista{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.lista{
+    text-align: left;
+    text-decoration: none;
 }
