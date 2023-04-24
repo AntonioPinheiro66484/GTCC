@@ -7,6 +7,7 @@ import SearchBar from '../../components/SearchBar'
 import LogosFooter from '../../components/LogosFooter'
 import MapaFooter from '../../components/MapaFooter'
 import InfoFooter from '../../components/InfoFooter'
+import ConteudoHome from '../../components/Conteudos/ConteudoHome'
 
 const Home =()=>{
     return(
@@ -15,6 +16,7 @@ const Home =()=>{
             <Header></Header>
             <NavBar></NavBar>
             <SearchBar></SearchBar>
+            <ConteudoHome></ConteudoHome>
             <MapaFooter></MapaFooter>
             <LogosFooter></LogosFooter>
             <InfoFooter></InfoFooter>
