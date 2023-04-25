@@ -1,12 +1,36 @@
 .caixa{
     display: flex;
     justify-content: center;
+    padding: 0.5rem;
 }
 
 .searchBar{
-    background-color: #d9d9d9;
+    display: flex;
+    background-color: #33333325;
     border: none;
     border-radius: 0.5rem;
     width: 300px;
-    padding: 0.5rem;
+    height: 2rem;
+    outline: none;
+}
+
+.searchInput{
+    width: 90%;
+    padding-inline: 1rem;
+    outline: none;
+}
+
+.searchButton{
+    display: flex;
+    width: 10%;
+    border-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInput, .searchButton{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    color: #757575;
 }
