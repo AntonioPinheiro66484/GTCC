@@ -1,9 +1,61 @@
-.logoImagem{
-    width: 6rem;
-    height: auto;
+.caixa{
+    padding: 4rem;
 }
 
-.titulo{
-    color: #5C5C5C;
+.logoImagem{
+    width: 9rem;
+    height: auto;
+    padding-bottom: 4rem;
+}
+
+.tituloPrincipal{
+    color: rgb(51 51 51 / 1);
     font-size: 1.5rem;
+}
+
+.caixaBloco{
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.bloco{
+    display: flex;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 14px #33333325;
+    width: 18rem;
+    padding: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(28, 240, 123);
+}
+
+.fundoImagem{
+    display: flex;
+    background-color: rgb(28, 240, 123, 0.33);
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.tituloBloco{
+    color: #0B6374;
+    font-size: 1.25rem;
+}
+
+.tituloPrincipal, .fundoImagem, .tituloBloco{
+    margin-bottom: 1rem;
+}
+
+.textoBloco{
+    color: #757575;
+    text-align: justify;
 }
