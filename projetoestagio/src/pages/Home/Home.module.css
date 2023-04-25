@@ -1,0 +1,4 @@
+.caixa{
+    display: flex;
+    flex-direction: column;
+}
