@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background-color: #fff
+    background-color: #fff;
+    padding: 0.5rem;
 }
 
 .paiItens{

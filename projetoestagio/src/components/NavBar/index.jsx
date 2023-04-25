@@ -11,7 +11,6 @@ const NavBar =()=>{
                 <li className={styles.item}>Categorias</li>
                 <li className={styles.item}>Professores</li> */}
                 <li className={styles.item}>Entrar</li>
-                <li className={styles.item}>Contatos</li>
                 <li className={styles.item}>Suporte</li>
             </ul>
         </nav>
