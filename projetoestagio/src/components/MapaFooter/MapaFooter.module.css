@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem;
 }
 
 .caixaLista{
@@ -12,4 +13,14 @@
 .lista{
     text-align: left;
     text-decoration: none;
+}
+
+.tituloLista{
+    color: #0B6374;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.itemLista{
+    color: #757575;
 }
