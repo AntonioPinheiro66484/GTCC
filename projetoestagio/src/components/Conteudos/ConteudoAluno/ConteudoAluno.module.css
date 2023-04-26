@@ -52,4 +52,13 @@
 
 .textoBloco{
     color:#757575;
+    text-align: justify;
+}
+
+.caixaProgresso{
+    display: flex;
+    flex-direction: row;
+}
+.textoBlocoProgresso{
+    color: #757575;
 }
