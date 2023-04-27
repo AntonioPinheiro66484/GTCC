@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './ConteudoAluno.module.css'
+import MapaFooter from '../../components/MapaFooter'
 
 const ConteudoAluno=()=>{
     return(
