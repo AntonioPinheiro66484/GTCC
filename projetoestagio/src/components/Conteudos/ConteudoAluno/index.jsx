@@ -1,71 +1,59 @@
 import React from "react";
-import styles from './ConteudoAluno.module.css'
-import MapaFooter from '../../components/MapaFooter'
+import styles from './ConteudoAluno2.module.css';
+import { Icon } from '@iconify/react';
 
-const ConteudoAluno=()=>{
+const ConteudoAluno2 =()=>{
     return(
         <div className={styles.caixa}>
-             <div className={styles.caixaLista}>
-                    <ul className={styles.lista}>
-                        <li><h1 className={styles.tituloLista}>Site 1</h1></li>
-                        <li><h2 className={styles.subTituloLista}>Tipo</h2></li>
-                        <li><a className={styles.itemLista}>Projeto Web</a></li>
-                        <li><h2 className={styles.subTituloLista}>Tema</h2></li>
-                        <li><a className={styles.itemLista}>Acessibilidades em sites web</a></li>
-                        <li><h2 className={styles.subTituloLista}>Integrantes</h2></li>
-                        <li><a className={styles.itemLista}>Ana</a></li>
-                        <li><a className={styles.itemLista}>Carlos</a></li>
-                        <li><a className={styles.itemLista}>João</a></li>
-                        <li><h2 className={styles.subTituloLista}>Orientador</h2></li>
-                        <li><a className={styles.itemLista}>Edson Junior</a></li>
-                    </ul>
+            <div className={styles.topoCaixa}>
+                <h1 className={styles.tituloPrincipal}>Site 1</h1>
+                <a className={styles.linkEditar}><Icon className={styles.imagemEditar} icon="material-symbols:edit"/></a>
+            </div>
+            <div className={styles.caixaBloco}>
+                <div>
+                    <div className={styles.bloco}>
+                        <h2 className={styles.tituloBloco}>Tipo</h2>
+                        <p className={styles.textoBloco}>Projeto web</p>
+                    </div>
+                    <div className={styles.bloco}>
+                        <h2 className={styles.tituloBloco}>Tema</h2>
+                        <p className={styles.textoBloco}>Acessibilidade em sites web</p>
+                    </div>
+                    <div className={styles.bloco}>
+                        <div className={styles.topoBloco}>
+                            <h2 className={styles.tituloBloco}>Integrantes</h2>
+                            <a className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
+                        </div>
+                        <p className={styles.textoBloco}>Ana</p>
+                        <p className={styles.textoBloco}>Carlos</p>
+                        <p className={styles.textoBloco}>João</p>
+                    </div>
+                    <div className={styles.bloco}>
+                        <div className={styles.topoBloco}>
+                            <h2 className={styles.tituloBloco}>Etapas</h2>
+                            <a className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
+                        </div>
+                        <p className={styles.textoBloco}>Etapa 1</p>
+                        <p className={styles.textoBloco}>Etapa 2</p>
+                        <p className={styles.textoBloco}>Etapa 3</p>
+                        <p className={styles.textoBloco}>Etapa 4</p>
+                    </div>
                 </div>
-                <div className={styles.caixaDescricao}>
-                    <div className={styles.caixaBloco}>
-                        <div className={styles.bloco}>
-                            <h2 className={styles.tituloBloco}>Etapa 1</h2>
-                            <p className={styles.textoBlocoProgresso}>Definição de identidade do projeto</p>
-                            <p className={styles.textoBlocoProgresso}>Entrega até segunda-feira, 27 de março</p>
-                            <p className={styles.textoBlocoProgresso}>Conclusão</p>
-                        </div>
+                <div>
+                    <div className={styles.bloco}>
+                        <h2 className={styles.tituloBloco}>Descrição</h2>
+                        <p className={styles.textoBloco}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                {/* </div>
-                <div className={styles.caixaProgresso}>
-                    <div className={styles.caixaBloco}>
-                        <div className={styles.bloco}>
-                            <h2 className={styles.tituloBloco}>Etapa 2</h2>
-                            <p className={styles.textoBlocoProgresso}>Definição de identidade do projeto</p>
-                            <p className={styles.textoBlocoProgresso}>Entrega até segunda-feira, 27 de março</p>
-                            <p className={styles.textoBlocoProgresso}>Conclusão</p>
+                    <div className={styles.bloco}>
+                        <div className={styles.topoBloco}>
+                            <h2 className={styles.tituloBloco}>Orientador</h2>
+                            <a className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
                         </div>
+                        <p className={styles.textoBloco}>Maria</p>
                     </div>
-                    <div className={styles.caixaBloco}>
-                        <div className={styles.bloco}>
-                            <h2 className={styles.tituloBloco}>Etapa 3</h2>
-                            <p className={styles.textoBlocoProgresso}>Definição de identidade do projeto</p>
-                            <p className={styles.textoBlocoProgresso}>Entrega até segunda-feira, 27 de março</p>
-                            <p className={styles.textoBlocoProgresso}>Conclusão</p>
-                        </div>
-                    </div>
-                    <div className={styles.caixaBloco}>
-                        <div className={styles.bloco}>
-                            <h2 className={styles.tituloBloco}>Etapa 4</h2>
-                            <p className={styles.textoBlocoProgresso}>Definição de identidade do projeto</p>
-                            <p className={styles.textoBlocoProgresso}>Entrega até segunda-feira, 27 de março</p>
-                            <p className={styles.textoBlocoProgresso}>Conclusão</p>
-                        </div>
-                    </div>
-                    <div className={styles.caixaBloco}>
-                        <div className={styles.bloco}>
-                            <h2 className={styles.tituloBloco}>Etapa 5</h2>
-                            <p className={styles.textoBlocoProgresso}>Definição de identidade do projeto</p>
-                            <p className={styles.textoBlocoProgresso}>Entrega até segunda-feira, 27 de março</p>
-                            <p className={styles.textoBlocoProgresso}>Conclusão</p>
-                        </div>
-                    </div> */}
                 </div>
-                
+            </div>
         </div>
     )
 }
-export default ConteudoAluno
+export default ConteudoAluno2

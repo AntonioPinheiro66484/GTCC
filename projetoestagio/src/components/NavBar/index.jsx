@@ -5,6 +5,7 @@ const NavBar =()=>{
     return(
         <nav className={styles.navBar}>
             <ul className={styles.paiItens}>
+                <li className={styles.item}>Início</li>
                 <li className={styles.item}>Trabalho</li>
                 {/* <li className={styles.item}>Trabalhos</li>
                 <li className={styles.item}>Solicitações</li>

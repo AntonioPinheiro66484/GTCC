@@ -1,0 +1,64 @@
+.caixa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.caixaLista{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.lista{
+    text-align: left;
+    text-decoration: none;
+}
+
+.tituloLista{
+    color: #5C5C5C;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.subTituloLista{
+    color:#5C5C5C;
+    font-weight: bold;
+}
+.itemLista{
+    color: #757575;
+}
+
+.caixaBloco{
+    padding-top:1.5rem; ;
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.bloco{
+    display: flex;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 14px #33333325;
+    width: 18rem;
+    padding: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloBloco{
+    color:#5c5c5c;
+}
+
+.textoBloco{
+    color:#757575;
+    text-align: justify;
+}
+
+.caixaProgresso{
+    display: flex;
+    flex-direction: row;
+}
+.textoBlocoProgresso{
+    color: #757575;
+}
