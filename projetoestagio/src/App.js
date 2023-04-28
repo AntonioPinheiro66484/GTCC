@@ -1,14 +1,23 @@
-import './App.css';
-import Home from './pages/Home';
-import PaginaAluno from './pages/PaginaAluno'
+import './App.css'
+import Home from './pages/Home'
+import PaginaTrabalho from './pages/PaginaAluno'
 import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
+import PaginaIntegrantes from './pages/PaginaIntegrantes'
+import PaginaEtapas from './pages/PaginaEtapas'
+import PaginaOrientador from './pages/PaginaOrientador'
+import PaginaSolicitacoes from './pages/PaginaSolicitacoes'
+
 function App() {
   return (
     <div className="App">
      <Router>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/PaginaAluno" element={<PaginaAluno/>}/>
+        <Route path="/PaginaTrabalho" element={<PaginaTrabalho/>}/>
+        <Route path="/PaginaIntegrantes" element={<PaginaIntegrantes/>}/>
+        <Route path='/PaginaEtapas' element={<PaginaEtapas/>}/>
+        <Route path='/PaginaOrientador' element={<PaginaOrientador/>}/>
+        <Route path='/PaginaSolicitacoes' element={<PaginaSolicitacoes/>}/>
       </Routes>
      </Router>
    
