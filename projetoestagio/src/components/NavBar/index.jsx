@@ -5,14 +5,17 @@ const NavBar =()=>{
     return(
         <nav className={styles.navBar}>
             <ul className={styles.paiItens}>
-                <li className={styles.item}>Início</li>
-                <li className={styles.item}>Trabalho</li>
-                {/* <li className={styles.item}>Trabalhos</li>
-                <li className={styles.item}>Solicitações</li>
-                <li className={styles.item}>Categorias</li>
-                <li className={styles.item}>Professores</li> */}
-                <li className={styles.item}>Entrar</li>
-                <li className={styles.item}>Suporte</li>
+                <li className={styles.item}><a className={styles.linkItem} href="/">Início</a></li>
+                <li className={styles.item}><a className={styles.linkItem} href="/PaginaTrabalho">Trabalho</a></li>
+                <li className={styles.item}><a className={styles.linkItem} href="/PaginaSolicitacoes">Solicitações</a></li>
+                {/*
+                <li className={styles.item}><a className={styles.linkItem}>Trabalhos</a></li>
+                
+                <li className={styles.item}><a className={styles.linkItem}>Categorias</a></li>
+                <li className={styles.item}><a className={styles.linkItem}>Professores</a></li>
+                */}
+                <li className={styles.item}><a className={styles.linkItem}>Entrar</a></li>
+                <li className={styles.item}><a className={styles.linkItem}>Suporte</a></li>
             </ul>
         </nav>
     ) 

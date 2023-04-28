@@ -14,5 +14,9 @@
 
 .item{
     display: flex;
+}
+
+.linkItem{
     color: #757575;
+    text-decoration: none;
 }
