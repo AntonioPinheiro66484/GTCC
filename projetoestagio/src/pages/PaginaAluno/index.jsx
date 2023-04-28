@@ -6,17 +6,17 @@ import SearchBar from '../../components/SearchBar'
 import LogosFooter from '../../components/LogosFooter'
 import MapaFooter from '../../components/MapaFooter'
 import InfoFooter from '../../components/InfoFooter'
-import ConteudoAluno from "../../components/Conteudos/ConteudoAluno";
+import ConteudoTrabalho from "../../components/Conteudos/ConteudoTrabalho"
 
 
-const PaginaAluno =()=>{
+const PaginaTrabalho =()=>{
     return(
         <div>
             <Acessibilidade></Acessibilidade>
             <Header></Header>
             <NavBar></NavBar>
             <SearchBar></SearchBar>
-            <ConteudoAluno></ConteudoAluno>
+            <ConteudoTrabalho></ConteudoTrabalho>
             <MapaFooter></MapaFooter>
             <LogosFooter></LogosFooter>
             <InfoFooter></InfoFooter>
@@ -24,4 +24,4 @@ const PaginaAluno =()=>{
     )
 }
 
-export default PaginaAluno
+export default PaginaTrabalho
