@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 import styles from './ConteudoHome.module.css'
 import Logo3 from '../../../assets/images/Logo3.png'
-import { Icon } from '@iconify/react';
+import { Icon } from '@iconify/react'
 
 const ConteudoHome =()=>{
     return(
@@ -18,14 +18,14 @@ const ConteudoHome =()=>{
                 </div>
                 <div className={styles.bloco}>
                     <div className={styles.fundoImagem2}>
-                        <Icon className={styles.imagem} icon="ph:chalkboard-teacher-fill"/>
+                        <Icon className={styles.imagem} icon="game-icons:white-book"/>
                     </div>
                     <h2 className={styles.tituloBloco}>Professor orientador</h2>
                     <p className={styles.textoBloco}>Para que os professores possam acompanhar a formação dos grupos e a escolha do tema do TCC por parte dos alunos, orientar alguns grupos de alunos e verificar as etapas que os alunos já tiverem finalizado.</p>
                 </div>
                 <div className={styles.bloco}>
                     <div className={styles.fundoImagem3}>
-                        <Icon className={styles.imagem} icon="game-icons:white-book"/>
+                        <Icon className={styles.imagem} icon="icomoon-free:books"/>
                     </div>
                     <h2 className={styles.tituloBloco}>Coordenador</h2>
                     <p className={styles.textoBloco}>Para que os coordenadores possam acompanhar o progressso dos professoresna orientação dos alunos e o andamento dos trabalhos criados pelos mesmos.</p>
