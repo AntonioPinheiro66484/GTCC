@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./SearchBar.module.css"
-import { Icon } from '@iconify/react';
+import { Icon } from '@iconify/react'
 
 const SearchBar =()=>{
     return(
