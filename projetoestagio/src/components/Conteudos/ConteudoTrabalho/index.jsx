@@ -2,7 +2,7 @@ import React from "react"
 import styles from './ConteudoTrabalho.module.css'
 import { Icon } from '@iconify/react'
 
-const ConteudoAluno2 =()=>{
+const ConteudoTrabalho =()=>{
     return(
         <div className={styles.caixa}>
             <div className={styles.topoCaixa}>
@@ -56,4 +56,4 @@ const ConteudoAluno2 =()=>{
         </div>
     )
 }
-export default ConteudoAluno2
+export default ConteudoTrabalho
