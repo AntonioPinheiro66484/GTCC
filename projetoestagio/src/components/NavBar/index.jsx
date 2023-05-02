@@ -7,10 +7,9 @@ const NavBar =()=>{
             <ul className={styles.paiItens}>
                 <li className={styles.item}><a className={styles.linkItem} href="/">Início</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/PaginaTrabalho">Trabalho</a></li>
+                <li className={styles.item}><a className={styles.linkItem} href="/PaginaTrabalhos">Trabalhos</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/PaginaSolicitacoes">Solicitações</a></li>
                 {/*
-                <li className={styles.item}><a className={styles.linkItem}>Trabalhos</a></li>
-                
                 <li className={styles.item}><a className={styles.linkItem}>Categorias</a></li>
                 <li className={styles.item}><a className={styles.linkItem}>Professores</a></li>
                 */}
