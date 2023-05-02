@@ -7,7 +7,7 @@ const ConteudoTrabalho =()=>{
         <div className={styles.caixa}>
             <div className={styles.topoCaixa}>
                 <h1 className={styles.tituloPrincipal}>Site 1</h1>
-                <a className={styles.linkEditar}><Icon className={styles.imagemEditar} icon="material-symbols:edit"/></a>
+                <a href="/PaginaEditar" className={styles.linkEditar}><Icon className={styles.imagemEditar} icon="material-symbols:edit"/></a>
             </div>
             <div className={styles.caixaBloco}>
                 <div>
