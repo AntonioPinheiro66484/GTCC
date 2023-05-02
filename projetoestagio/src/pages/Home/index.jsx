@@ -5,7 +5,7 @@ import Header from '../../components/Header'
 import NavBar from '../../components/NavBar'
 import SearchBar from '../../components/SearchBar'
 import LogosFooter from '../../components/LogosFooter'
-import MapaFooter from '../../components/MapaFooter'
+import Mapafooter from '../../components/MapaFooter'
 import InfoFooter from '../../components/InfoFooter'
 import ConteudoHome from '../../components/Conteudos/ConteudoHome'
 
@@ -17,7 +17,7 @@ const Home =()=>{
             <NavBar></NavBar>
             <SearchBar></SearchBar>
             <ConteudoHome></ConteudoHome>
-            <MapaFooter></MapaFooter>
+            <Mapafooter></Mapafooter>
             <LogosFooter></LogosFooter>
             <InfoFooter></InfoFooter>
         </div>
