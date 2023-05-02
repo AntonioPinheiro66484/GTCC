@@ -13,10 +13,10 @@ const ConteudoSolicitacoes =()=>{
                         <p className={styles.textoBloco}>Criado por Ana, Carlos, João</p>
                     </div>
                     <div className={styles.caixaBotao}>
-                        <button className={styles.botaoConcluir}>
+                        <button className={styles.botao}>
                             Aceitar
                         </button>
-                        <button className={styles.botaoConcluir}>
+                        <button className={styles.botao}>
                             Recusar
                         </button>
                     </div>
@@ -28,10 +28,10 @@ const ConteudoSolicitacoes =()=>{
                         <p className={styles.textoBloco}>Criado por Ana, Carlos, João</p>
                     </div>
                     <div className={styles.caixaBotao}>
-                        <button className={styles.botaoConcluir}>
+                        <button className={styles.botao}>
                             Aceitar
                         </button>
-                        <button className={styles.botaoConcluir}>
+                        <button className={styles.botao}>
                             Recusar
                         </button>
                     </div>
