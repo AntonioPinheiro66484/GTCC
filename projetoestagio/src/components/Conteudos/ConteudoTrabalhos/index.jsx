@@ -10,7 +10,7 @@ const ConteudoTrabalhos =()=>{
                     <h2 className={styles.tituloBloco}>Site 1</h2>
                     <p className={styles.textoBloco}>Projeto web • Acessibilidade em sites web</p>
                     <p className={styles.textoBloco}>Criado por Ana, Carlos, João</p>
-                    <p className={styles.textoBloco}>Orientado por Edson Junior</p>
+                    <p className={styles.textoBloco}>Orientado por Maria Fulana</p>
                     <p className={styles.textoBloco}>Em andamento</p>
                     <div className={styles.barraProgresso}>
                         <div className={styles.progressao}></div>
