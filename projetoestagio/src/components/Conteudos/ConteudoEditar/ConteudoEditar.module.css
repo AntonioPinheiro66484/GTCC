@@ -1,6 +1,7 @@
 .caixa{
-    padding: 4rem;
     display: flex;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
     align-items: center;
     flex-direction: column;
 }
@@ -20,15 +21,20 @@
     
 }
 
-.caixaInput, .caixaEtapa{
+.caixaInput, .caixaFieldset{
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-    width: 37.5rem;
+    width: 100%;
+    max-width: 37.5rem;
 }
 
-.caixaEtapa{
+.caixaFieldset{
     border: none;
+}
+
+.caixaFieldset{
+    min-width: 0;
 }
 
 .tituloSecundarioFieldset{
@@ -51,7 +57,40 @@
     border-radius: 0.5rem;
     padding-block: 0.5rem;
     padding-inline: 1rem;
-    height: 2rem;
     outline: none;
     color: #757575;
+}
+
+.botaoAdicionar{
+    background-color: transparent;
+    border: none;
+    color: #333c;
+    font-size: 2rem;
+    display: flex;
+}
+
+.botaoAdicionar:hover{
+    color: #2BB8C9
+}
+
+.caixaBotao{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.botao{
+    background-color: transparent;
+    border: 1px solid rgb(0 92 110 / 1);
+    border-radius: 1rem;  
+    color: rgb(0 92 110 / 1);
+    padding-block: 0.375rem;
+    padding-inline: 0.75rem;
+    transition: 0.2s;
+}
+
+.botao:hover{
+    background-color: #2BB8C9;
+    border: 1px solid #2BB8C9;
+    color: #fff;
 }
