@@ -11,14 +11,14 @@ import ConteudoEtapas from "../../components/Conteudos/ConteudoEtapas"
 const PaginaEtapas =()=>{
     return(
         <div>
-            <Acessibilidade></Acessibilidade>
-            <Header></Header>
-            <NavBar></NavBar>
-            <SearchBar></SearchBar>
-            <ConteudoEtapas></ConteudoEtapas>
-            <MapaFooter></MapaFooter>
-            <LogosFooter></LogosFooter>
-            <InfoFooter></InfoFooter>
+            <Acessibilidade/>
+            <Header/>
+            <NavBar/>
+            <SearchBar/>
+            <ConteudoEtapas/>
+            <MapaFooter/>
+            <LogosFooter/>
+            <InfoFooter/>
         </div>
     )
 }

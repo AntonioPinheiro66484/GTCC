@@ -11,13 +11,13 @@ import ConteudoOrientador from "../../components/Conteudos/ConteudoOrientador"
 const PaginaOrientador =()=>{
     return(
         <div>
-            <Acessibilidade></Acessibilidade>
-            <Header></Header>
-            <NavBar></NavBar>
-            <ConteudoOrientador></ConteudoOrientador>
-            <MapaFooter></MapaFooter>
-            <LogosFooter></LogosFooter>
-            <InfoFooter></InfoFooter>
+            <Acessibilidade/>
+            <Header/>
+            <NavBar/>
+            <ConteudoOrientador/>
+            <MapaFooter/>
+            <LogosFooter/>
+            <InfoFooter/>
         </div>
     )
 }

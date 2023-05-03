@@ -12,13 +12,13 @@ import ConteudoHome from '../../components/Conteudos/ConteudoHome'
 const Home =()=>{
     return(
         <div className={styles.caixa}>
-            <Acessibilidade></Acessibilidade>
-            <Header></Header>
-            <NavBar></NavBar>
-            <ConteudoHome></ConteudoHome>
-            <Mapafooter></Mapafooter>
-            <LogosFooter></LogosFooter>
-            <InfoFooter></InfoFooter>
+            <Acessibilidade/>
+            <Header/>
+            <NavBar/>
+            <ConteudoHome/>
+            <Mapafooter/>
+            <LogosFooter/>
+            <InfoFooter/>
         </div>
     )
 }

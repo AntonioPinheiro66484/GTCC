@@ -1,22 +1,19 @@
 import React from "react";
-import Acessibilidade from "../../components/Acessibilidade";
+import Acessibilidade from '../../components/Acessibilidade'
 import Header from '../../components/Header'
 import NavBar from '../../components/NavBar'
-import SearchBar from '../../components/SearchBar'
 import LogosFooter from '../../components/LogosFooter'
 import MapaFooter from '../../components/MapaFooter'
 import InfoFooter from '../../components/InfoFooter'
-import ConteudoTrabalhos from "../../components/Conteudos/ConteudoTrabalhos"
+import ConteudoOrientadores from '../../components/Conteudos/ConteudoOrientadores'
 
-
-const PaginaTrabalhos =()=>{
+const PaginaOrientadores =()=>{
     return(
         <div>
             <Acessibilidade/>
             <Header/>
             <NavBar/>
-            <SearchBar/>
-            <ConteudoTrabalhos/>
+            <ConteudoOrientadores/>
             <MapaFooter/>
             <LogosFooter/>
             <InfoFooter/>
@@ -24,4 +21,4 @@ const PaginaTrabalhos =()=>{
     )
 }
 
-export default PaginaTrabalhos
+export default PaginaOrientadores

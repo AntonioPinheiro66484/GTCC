@@ -11,13 +11,13 @@ import ConteudoTrabalho from "../../components/Conteudos/ConteudoTrabalho"
 const PaginaTrabalho =()=>{
     return(
         <div>
-            <Acessibilidade></Acessibilidade>
-            <Header></Header>
-            <NavBar></NavBar>
-            <ConteudoTrabalho></ConteudoTrabalho>
-            <MapaFooter></MapaFooter>
-            <LogosFooter></LogosFooter>
-            <InfoFooter></InfoFooter>
+            <Acessibilidade/>
+            <Header/>
+            <NavBar/>
+            <ConteudoTrabalho/>
+            <MapaFooter/>
+            <LogosFooter/>
+            <InfoFooter/>
         </div>
     )
 }

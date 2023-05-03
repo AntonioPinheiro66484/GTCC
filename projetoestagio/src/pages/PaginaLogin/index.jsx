@@ -10,14 +10,14 @@ import ConteudoLogin from '../../components/Conteudos/ConteudoLogin'
 const PaginaLogin =() =>{
   return (
     <div>
-        <Acessibilidade></Acessibilidade>
-        <Header></Header>
-        <NavBar></NavBar>
-        <ConteudoLogin></ConteudoLogin>
-        <MapaFooter></MapaFooter>
-        <LogosFooter></LogosFooter>
-        <InfoFooter></InfoFooter>
-</div>
+      <Acessibilidade/>
+      <Header/>
+      <NavBar/>
+      <ConteudoLogin/>
+      <MapaFooter/>
+      <LogosFooter/>
+      <InfoFooter/>
+    </div>
   )
 }
 

@@ -12,14 +12,14 @@ import ConteudoIntegrantes from "../../components/Conteudos/ConteudoIntegrantes"
 const PaginaIntegrantes =()=>{
     return(
         <div>
-            <Acessibilidade></Acessibilidade>
-            <Header></Header>
-            <NavBar></NavBar>
-            <SearchBar></SearchBar>
-            <ConteudoIntegrantes></ConteudoIntegrantes>
-            <MapaFooter></MapaFooter>
-            <LogosFooter></LogosFooter>
-            <InfoFooter></InfoFooter>
+            <Acessibilidade/>
+            <Header/>
+            <NavBar/>
+            <SearchBar/>
+            <ConteudoIntegrantes/>
+            <MapaFooter/>
+            <LogosFooter/>
+            <InfoFooter/>
         </div>
     )
 }

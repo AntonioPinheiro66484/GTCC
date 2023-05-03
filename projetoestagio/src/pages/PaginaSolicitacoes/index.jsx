@@ -8,18 +8,17 @@ import MapaFooter from '../../components/MapaFooter'
 import InfoFooter from '../../components/InfoFooter'
 import ConteudoSolicitacoes from "../../components/Conteudos/ConteudoSolicitacoes"
 
-
 const PaginaSolicitacoes =()=>{
     return(
         <div>
-            <Acessibilidade></Acessibilidade>
-            <Header></Header>
-            <NavBar></NavBar>
-            <SearchBar></SearchBar>
-            <ConteudoSolicitacoes></ConteudoSolicitacoes>
-            <MapaFooter></MapaFooter>
-            <LogosFooter></LogosFooter>
-            <InfoFooter></InfoFooter>
+            <Acessibilidade/>
+            <Header/>
+            <NavBar/>
+            <SearchBar/>
+            <ConteudoSolicitacoes/>
+            <MapaFooter/>
+            <LogosFooter/>
+            <InfoFooter/>
         </div>
     )
 }
