@@ -1,6 +1,7 @@
 .caixa{
     display: flex;
-    padding: 4rem;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
     flex-direction: column;
     align-items: center;
 }
