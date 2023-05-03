@@ -15,7 +15,6 @@ const Home =()=>{
             <Acessibilidade></Acessibilidade>
             <Header></Header>
             <NavBar></NavBar>
-            <SearchBar></SearchBar>
             <ConteudoHome></ConteudoHome>
             <Mapafooter></Mapafooter>
             <LogosFooter></LogosFooter>
