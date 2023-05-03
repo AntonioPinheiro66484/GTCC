@@ -11,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 37.5rem;
     gap: 1rem;
 }
 
@@ -18,7 +19,6 @@
     color: rgb(51 51 51 / 1);
     font-size: 1.5rem;
     padding-bottom: 2rem;
-    
 }
 
 .caixaInput, .caixaFieldset{
@@ -26,7 +26,6 @@
     flex-direction: column;
     gap: 0.25rem;
     width: 100%;
-    max-width: 37.5rem;
 }
 
 .caixaFieldset{
@@ -37,18 +36,21 @@
     min-width: 0;
 }
 
-.tituloSecundarioFieldset{
+.legendPrincipal{
     padding-bottom: 1rem;
 }
 
-.tituloSecundarioInput, .tituloSecundarioFieldset{
-    color: #0B6374;
+.labelPrincipal, .legendPrincipal{
     font-size: 1.25rem;
 }
 
-.label{
+.labelSecundaria{
     font-size: 1rem;
+}
+
+.labelPrincipal, .legendPrincipal, .labelSecundaria{
     color: #0B6374;
+    font-weight: bold;
 }
 
 .input{
