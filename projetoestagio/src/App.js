@@ -1,6 +1,6 @@
 import './App.css'
 import Home from './pages/Home'
-import PaginaTrabalho from './pages/PaginaAluno'
+import PaginaTrabalho from './pages/PaginaTrabalho'
 import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
 import PaginaIntegrantes from './pages/PaginaIntegrantes'
 import PaginaEtapas from './pages/PaginaEtapas'
@@ -8,6 +8,7 @@ import PaginaOrientador from './pages/PaginaOrientador'
 import PaginaSolicitacoes from './pages/PaginaSolicitacoes'
 import PaginaTrabalhos from './pages/PaginaTrabalhos'
 import PaginaEditar from './pages/PaginaEditar'
+import PaginaLogin from './pages/PaginaLogin'
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path='/PaginaSolicitacoes' element={<PaginaSolicitacoes/>}/>
           <Route path='/PaginaTrabalhos' element={<PaginaTrabalhos/>}/>
           <Route path='/PaginaEditar' element={<PaginaEditar/>}/>
+          <Route path='/PaginaLogin' element={<PaginaLogin/>}/>
+          
         </Routes>
       </Router>
     </div>
