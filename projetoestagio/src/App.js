@@ -9,6 +9,7 @@ import PaginaSolicitacoes from './pages/PaginaSolicitacoes'
 import PaginaTrabalhos from './pages/PaginaTrabalhos'
 import PaginaEditar from './pages/PaginaEditar'
 import PaginaLogin from './pages/PaginaLogin'
+import PaginaOrientadores from './pages/PaginaOrientadores'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path='/PaginaTrabalhos' element={<PaginaTrabalhos/>}/>
           <Route path='/PaginaEditar' element={<PaginaEditar/>}/>
           <Route path='/PaginaLogin' element={<PaginaLogin/>}/>
-          
+          <Route path='/PaginaOrientadores' element={<PaginaOrientadores/>}/>
         </Routes>
       </Router>
     </div>
