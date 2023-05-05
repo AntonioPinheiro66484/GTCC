@@ -15,8 +15,8 @@ const NavBar =()=>{
                 <li className={styles.item}><a className={styles.linkItem}>Professores</a></li>
                 */}
                 <li className={styles.item}><a className={styles.linkItem} href="/PaginaLogin">Entrar</a></li>
-                <li className={styles.item}><a className={styles.linkItem}>Suporte</a></li>
-            </ul>
+                <li className={styles.item}><a className={styles.linkItem} href="http://suporte.fateczl.edu.br">Suporte</a></li>
+            </ul> 
         </nav>
     ) 
 }
