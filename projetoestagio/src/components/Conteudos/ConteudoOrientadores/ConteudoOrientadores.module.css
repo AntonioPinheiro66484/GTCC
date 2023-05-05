@@ -26,9 +26,15 @@
     background-color: #fff;
     border-radius: 0.75rem;
     box-shadow: 0 0 14px #33333325;
-    width: 37.5rem;
-    flex-direction: column;
+    width: 100%;
+    max-width: 37.5rem;
+    justify-content: space-between;
     padding: 1.5rem;
+}
+
+.caixaTexto{
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
 }
 
@@ -40,4 +46,26 @@
 .textoBloco{
     color: #757575;
     text-align: justify;
+}
+
+.caixaBotao{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.botao{
+    background-color: transparent;
+    border: 1px solid rgb(0 92 110 / 1);
+    border-radius: 1rem;  
+    color: rgb(0 92 110 / 1);
+    padding-block: 0.375rem;
+    padding-inline: 0.75rem;
+    transition: 0.2s;
+}
+
+.botao:hover{
+    background-color: #2BB8C9;
+    border: 1px solid #2BB8C9;
+    color: #fff;
 }

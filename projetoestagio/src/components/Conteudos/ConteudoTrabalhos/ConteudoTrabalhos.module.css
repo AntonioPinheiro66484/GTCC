@@ -26,7 +26,8 @@
     background-color: #fff;
     border-radius: 0.75rem;
     box-shadow: 0 0 14px #33333325;
-    width: 37.5rem;
+    width: 100%;
+    max-width: 37.5rem;
     justify-content: space-between;
     padding: 1.5rem;
     flex-direction: column;

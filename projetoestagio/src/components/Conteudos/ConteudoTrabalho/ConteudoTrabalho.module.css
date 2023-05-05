@@ -26,7 +26,8 @@
     border-radius: 0.75rem;
     box-shadow: 0 0 14px #33333325;
     padding: 1.5rem;
-    width: 18rem;
+    width: 100%;
+    max-width: 18rem;
     flex-direction: column;
     margin-bottom: 1.5rem;
     gap: 1rem;
