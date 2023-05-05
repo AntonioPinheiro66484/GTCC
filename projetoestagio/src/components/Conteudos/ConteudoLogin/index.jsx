@@ -6,7 +6,7 @@ const ConteudoLogin =()=>{
         <div className={styles.caixa}>
             <div className={styles.bloco}>
                 <form className={styles.formulario}>
-                    <h1 className={styles.tituloPrincipal}>Entre</h1>
+                    <h1 className={styles.tituloPrincipal}>Entrar</h1>
                     <div className={styles.caixaInput}>
                         <label className={styles.labelPrincipal}>RA</label>
                         <input className={styles.input} type="text"/>
