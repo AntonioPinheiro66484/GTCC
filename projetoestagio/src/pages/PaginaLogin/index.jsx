@@ -1,24 +1,25 @@
-import React from 'react'
-import Acessibilidade from '../../components/Acessibilidade'
-import Header from '../../components/Header'
-import NavBar from '../../components/NavBar'
-import LogosFooter from '../../components/LogosFooter'
-import MapaFooter from '../../components/MapaFooter'
-import InfoFooter from '../../components/InfoFooter'
-import ConteudoLogin from '../../components/Conteudos/ConteudoLogin'
+import React from "react"
+import styles from './styles.module.css'
 
-const PaginaLogin =() =>{
-  return (
-    <div>
-      <Acessibilidade/>
-      <Header/>
-      <NavBar/>
-      <ConteudoLogin/>
-      <MapaFooter/>
-      <LogosFooter/>
-      <InfoFooter/>
-    </div>
-  )
+const PaginaLogin =()=>{
+    return(
+        <div className={styles.caixa}>
+            <div className={styles.bloco}>
+                <form className={styles.formulario}>
+                    <h1 className={styles.tituloPrincipal}>Entrar</h1>
+                    <div className={styles.caixaInput}>
+                        <label className={styles.labelPrincipal}>RA</label>
+                        <input className={styles.input} type="text"/>
+                    </div>
+                    <div className={styles.caixaInput}>
+                        <label className={styles.labelPrincipal}>Senha</label>
+                        <input className={styles.input} type="password"/>
+                    </div>
+                    <button className={styles.botao}>Entrar</button>
+                </form>
+            </div>
+        </div>
+    )
 }
 
 export default PaginaLogin

@@ -1,0 +1,90 @@
+.caixa{
+    display: flex;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoImagem{
+    width: 9rem;
+    height: auto;
+    margin-bottom: 4rem;
+}
+
+.tituloPrincipal{
+    color: rgb(51 51 51 / 1);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.caixaBloco{
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+.bloco{
+    display: flex;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 14px #33333325;
+    width: 18rem;
+    padding: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fundoImagem1{
+    background-color: rgba(191, 28, 240, 0.33);
+    /* NÃO APAGAR
+    background-color: rgba(240, 28, 236, 0.33);*/
+}
+
+.fundoImagem2{
+    background-color: rgb(28, 240, 123, 0.33);
+    
+}
+
+.fundoImagem3{
+    background-color: rgba(28, 39, 240, 0.33);
+}
+
+.fundoImagem1, .fundoImagem2, .fundoImagem3{
+    display: flex;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundoImagem1 .imagem{
+    color: rgb(191, 28, 240);
+    /* NÃO APAGAR
+    color: rgba(240, 28, 236);*/
+}
+
+.fundoImagem2 .imagem{
+    color: rgb(28, 240, 123);
+}
+
+.fundoImagem3 .imagem{
+    color: rgba(28, 39, 240);
+}
+
+.imagem{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.tituloBloco{
+    color: #0B6374;
+    font-size: 1.25rem;
+}
+
+.textoBloco{
+    color: #757575;
+    text-align: justify;
+}

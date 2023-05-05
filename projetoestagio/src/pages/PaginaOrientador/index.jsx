@@ -1,23 +1,16 @@
 import React from "react"
-import Acessibilidade from '../../components/Acessibilidade'
-import Header from '../../components/Header'
-import NavBar from '../../components/NavBar'
-import LogosFooter from '../../components/LogosFooter'
-import MapaFooter from '../../components/MapaFooter'
-import InfoFooter from '../../components/InfoFooter'
-import ConteudoOrientador from "../../components/Conteudos/ConteudoOrientador"
-
+import styles from './styles.module.css'
 
 const PaginaOrientador =()=>{
     return(
-        <div>
-            <Acessibilidade/>
-            <Header/>
-            <NavBar/>
-            <ConteudoOrientador/>
-            <MapaFooter/>
-            <LogosFooter/>
-            <InfoFooter/>
+        <div className={styles.caixa}>
+            <h1 className={styles.tituloPrincipal}>Orientador</h1>
+            <div className={styles.caixaBloco}>
+                <div className={styles.bloco}>
+                    <h2 className={styles.tituloBloco}>Maria Fulana Lima</h2>
+                    <p className={styles.textoBloco}>maria.lima43@fatec.sp.gov.br</p>
+                </div>
+            </div>
         </div>
     )
 }

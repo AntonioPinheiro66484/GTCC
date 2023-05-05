@@ -11,22 +11,22 @@ import PaginaLogin from '../pages/PaginaLogin'
 import PaginaOrientadores from '../pages/PaginaOrientadores'
 
 function Rotas() {
-  return (
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/PaginaTrabalho" element={<PaginaTrabalho/>}/>
-          <Route path="/PaginaIntegrantes" element={<PaginaIntegrantes/>}/>
-          <Route path='/PaginaEtapas' element={<PaginaEtapas/>}/>
-          <Route path='/PaginaOrientador' element={<PaginaOrientador/>}/>
-          <Route path='/PaginaSolicitacoes' element={<PaginaSolicitacoes/>}/>
-          <Route path='/PaginaTrabalhos' element={<PaginaTrabalhos/>}/>
-          <Route path='/PaginaEditar' element={<PaginaEditar/>}/>
-          <Route path='/PaginaLogin' element={<PaginaLogin/>}/>
-          <Route path='/PaginaOrientadores' element={<PaginaOrientadores/>}/>
-        </Routes>
-      </Router>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/PaginaTrabalho" element={<PaginaTrabalho/>}/>
+                <Route path="/PaginaIntegrantes" element={<PaginaIntegrantes/>}/>
+                <Route path='/PaginaEtapas' element={<PaginaEtapas/>}/>
+                <Route path='/PaginaOrientador' element={<PaginaOrientador/>}/>
+                <Route path='/PaginaSolicitacoes' element={<PaginaSolicitacoes/>}/>
+                <Route path='/PaginaTrabalhos' element={<PaginaTrabalhos/>}/>
+                <Route path='/PaginaEditar' element={<PaginaEditar/>}/>
+                <Route path='/PaginaLogin' element={<PaginaLogin/>}/>
+                <Route path='/PaginaOrientadores' element={<PaginaOrientadores/>}/>
+            </Routes>
+        </Router>
+    );
 }
 
 export default Rotas

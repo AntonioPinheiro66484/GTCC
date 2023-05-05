@@ -1,24 +1,34 @@
 import React from "react";
-import Acessibilidade from "../../components/Acessibilidade";
-import Header from '../../components/Header'
-import NavBar from '../../components/NavBar'
-import SearchBar from '../../components/SearchBar'
-import LogosFooter from '../../components/LogosFooter'
-import MapaFooter from '../../components/MapaFooter'
-import InfoFooter from '../../components/InfoFooter'
-import ConteudoSolicitacoes from "../../components/Conteudos/ConteudoSolicitacoes"
+import styles from './styles.module.css'
 
 const PaginaSolicitacoes =()=>{
     return(
-        <div>
-            <Acessibilidade/>
-            <Header/>
-            <NavBar/>
-            <SearchBar/>
-            <ConteudoSolicitacoes/>
-            <MapaFooter/>
-            <LogosFooter/>
-            <InfoFooter/>
+        <div className={styles.caixa}>
+            <h1 className={styles.tituloPrincipal}>Solicitações</h1>
+            <div className={styles.caixaBloco}>
+                <div className={styles.bloco}>
+                    <div className={styles.caixaTexto}>
+                        <h2 className={styles.tituloBloco}>Site 1</h2>
+                        <p className={styles.textoBloco}>Projeto web • Acessibilidade em sites web</p>
+                        <p className={styles.textoBloco}>Criado por Ana, Carlos, João</p>
+                    </div>
+                    <div className={styles.caixaBotao}>
+                        <button className={styles.botao}>Aceitar</button>
+                        <button className={styles.botao}>Recusar</button>
+                    </div>
+                </div>
+                <div className={styles.bloco}>
+                    <div className={styles.caixaTexto}>
+                        <h2 className={styles.tituloBloco}>Site 2</h2>
+                        <p className={styles.textoBloco}>PProjeto web • E-commerce de livros</p>
+                        <p className={styles.textoBloco}>Criado por Ana, Carlos, João</p>
+                    </div>
+                    <div className={styles.caixaBotao}>
+                        <button className={styles.botao}>Aceitar</button>
+                        <button className={styles.botao}>Recusar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
