@@ -16,13 +16,13 @@
 .searchInput{
     width: 90%;
     padding-block: 0.5rem;
-    padding-inline: 1rem;
+    padding-inline: 0.75rem;
     outline: none;
 }
 
 .searchButton{
     display: flex;
-    width: 10%;
+    padding-inline: 0.75rem;
     border-right: 0.5rem;
     justify-content: center;
     align-items: center;
