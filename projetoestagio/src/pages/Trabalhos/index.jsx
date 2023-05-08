@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './styles.module.css'
 
-const PaginaTrabalhos =()=>{
+const Trabalhos =()=>{
     return(
         <div className={styles.caixa}>
             <h1 className={styles.tituloPrincipal}>Trabalhos</h1>
@@ -31,4 +31,4 @@ const PaginaTrabalhos =()=>{
     )
 }
 
-export default PaginaTrabalhos
+export default Trabalhos

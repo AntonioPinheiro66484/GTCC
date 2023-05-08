@@ -19,7 +19,7 @@ function App() {
       <LogosFooter/>
       <InfoFooter/>
     </div>
-  );
+  )
 }
 
 export default App

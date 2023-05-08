@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 import styles from './styles.module.css'
 
-const PaginaIntegrantes =()=>{
+const Integrantes =()=>{
     return(
         <div className={styles.caixa}>
             <h1 className={styles.tituloPrincipal}>Integrantes</h1>
@@ -23,4 +23,4 @@ const PaginaIntegrantes =()=>{
     )
 }
 
-export default PaginaIntegrantes
+export default Integrantes
