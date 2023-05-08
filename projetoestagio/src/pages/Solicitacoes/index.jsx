@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 import styles from './styles.module.css'
 
-const PaginaSolicitacoes =()=>{
+const Solicitacoes =()=>{
     return(
         <div className={styles.caixa}>
             <h1 className={styles.tituloPrincipal}>Solicitações</h1>
@@ -33,4 +33,4 @@ const PaginaSolicitacoes =()=>{
     )
 }
 
-export default PaginaSolicitacoes
+export default Solicitacoes

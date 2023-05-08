@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 import styles from './styles.module.css'
 
-const PaginaOrientadores =()=>{
+const Orientadores =()=>{
     return(
         <div className={styles.caixa}>
             <h1 className={styles.tituloPrincipal}>Orientadores</h1>
@@ -31,4 +31,4 @@ const PaginaOrientadores =()=>{
     )
 }
 
-export default PaginaOrientadores
+export default Orientadores

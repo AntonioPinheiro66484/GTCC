@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import styles from './styles.module.css'
-import { Icon } from '@iconify/react';
+import {Icon} from '@iconify/react';
 
-const PaginaEditar =()=>{
+const Editar =()=>{
     return(
         <div className={styles.caixa}>
             <h1 className={styles.tituloPrincipal}>Editar trabalho</h1>
@@ -69,4 +69,4 @@ const PaginaEditar =()=>{
     )
 }
 
-export default PaginaEditar
+export default Editar

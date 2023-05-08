@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 import styles from './styles.module.css'
-import { Icon } from '@iconify/react'
+import {Icon} from '@iconify/react'
 
-const PaginaEtapas =()=>{
+const Etapas =()=>{
     return(
         <div className={styles.caixa}>
             <h1 className={styles.tituloPrincipal}>Etapas</h1>
@@ -15,9 +15,7 @@ const PaginaEtapas =()=>{
                         <p className={styles.textoBloco}>Concluído</p>
                     </div>
                     <div className={styles.caixaBotao}>
-                        <button className={styles.botaoConcluir}>
-                            Marcar como concluída
-                        </button>
+                        <button className={styles.botaoConcluir}>Marcar como concluída</button>
                     </div>
                 </div>
                 <div className={styles.bloco}>
@@ -28,9 +26,7 @@ const PaginaEtapas =()=>{
                         <p className={styles.textoBloco}>Em andamento</p>
                     </div>
                     <div className={styles.caixaBotao}>
-                        <button className={styles.botaoConcluir}>
-                            Marcar como concluída
-                        </button>
+                        <button className={styles.botaoConcluir}>Marcar como concluída</button>
                     </div>
                 </div>
                 <div className={styles.bloco}>
@@ -39,9 +35,7 @@ const PaginaEtapas =()=>{
                         <p className={styles.textoBloco}>Análise de solução proposta</p>
                     </div>
                     <div className={styles.caixaBotao}>
-                        <button className={styles.botaoConcluir}>
-                            Marcar como concluída
-                        </button>
+                        <button className={styles.botaoConcluir}>Marcar como concluída</button>
                     </div>
                 </div>
                 <div className={styles.bloco}>
@@ -50,9 +44,7 @@ const PaginaEtapas =()=>{
                         <p className={styles.textoBloco}>Análise de solução proposta</p>
                     </div>
                     <div className={styles.caixaBotao}>
-                        <button className={styles.botaoConcluir}>
-                            Marcar como concluída
-                        </button>
+                        <button className={styles.botaoConcluir}>Marcar como concluída</button>
                     </div>
                 </div>
             </div>
@@ -60,4 +52,4 @@ const PaginaEtapas =()=>{
     )
 }
 
-export default PaginaEtapas
+export default Etapas

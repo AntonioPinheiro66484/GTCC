@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 import styles from './styles.module.css'
 
-const PaginaLogin =()=>{
+const Login =()=>{
     return(
         <div className={styles.caixa}>
             <div className={styles.bloco}>
@@ -22,4 +22,4 @@ const PaginaLogin =()=>{
     )
 }
 
-export default PaginaLogin
+export default Login
