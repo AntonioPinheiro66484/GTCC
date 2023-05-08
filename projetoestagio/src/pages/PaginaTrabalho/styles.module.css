@@ -1,0 +1,65 @@
+.caixa{
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+}
+
+.topoCaixa{
+    justify-content: center;
+    padding-bottom: 2rem;
+    gap: 0.5rem;
+}
+
+.tituloPrincipal{
+    color: rgb(51 51 51 / 1);
+    font-size: 1.5rem;
+}
+
+.caixaBloco{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.bloco{
+    display: flex;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 14px #33333325;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 18rem;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.topoBloco{
+    justify-content: space-between;
+}
+
+.topoCaixa, .topoBloco{
+    display: flex;
+    align-items: center;
+}
+
+.tituloBloco{
+    color: #0B6374;
+    font-size: 1.25rem;
+}
+
+.linkEditar, .linkMaisDetalhes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333c;
+    font-size: 1.25rem;
+}
+
+.linkEditar:hover, .linkMaisDetalhes:hover{
+    color: #2BB8C9;
+}
+
+.textoBloco{
+    color: #757575;
+    text-align: justify;
+}
