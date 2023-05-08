@@ -9,6 +9,8 @@ import Trabalhos from '../pages/Trabalhos'
 import Editar from '../pages/Editar'
 import Login from '../pages/Login'
 import Orientadores from '../pages/Orientadores'
+import TiposTrabalho from '../pages/TiposTrabalho'
+import EditarTipoTrabalho from '../pages/EditarTipoTrabalho'
 
 function Rotas() {
     return (
@@ -24,6 +26,8 @@ function Rotas() {
                 <Route path='/editar' element={<Editar/>}/>
                 <Route path='/login' element={<Login/>}/>
                 <Route path='/orientadores' element={<Orientadores/>}/>
+                <Route path='/tipos-de-trabalho' element={<TiposTrabalho/>}/>
+                <Route path='/editar-tipo-de-trabalho' element={<EditarTipoTrabalho/>}/>
             </Routes>
         </Router>
     )
