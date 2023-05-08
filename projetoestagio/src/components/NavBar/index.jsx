@@ -10,9 +10,7 @@ const NavBar =()=>{
                 <li className={styles.item}><a className={styles.linkItem} href="/orientadores">Orientadores</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/trabalhos">Trabalhos</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/solicitacoes">Solicitações</a></li>
-                {/*
-                <li className={styles.item}><a className={styles.linkItem}>Categorias</a></li>
-                */}
+                <li className={styles.item}><a className={styles.linkItem} href="/tipos-de-trabalho">Tipos de trabalho</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/login">Entrar</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="http://suporte.fateczl.edu.br">Suporte</a></li>
             </ul> 
