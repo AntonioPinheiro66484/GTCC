@@ -29,7 +29,7 @@ const Editar =()=>{
                     <input className={styles.input} type="text"/>
                 </fieldset>
                 <button className={styles.botaoAdicionar}>
-                    <Icon className={styles.imagemAdicionar} icon="ph:plus-circle" />
+                    <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
                 </button>
                 <div className={styles.caixaInput}>
                     <label className={styles.labelPrincipal}>Orientador</label>
@@ -58,7 +58,7 @@ const Editar =()=>{
                     <input className={styles.input} type="text"/>
                 </fieldset>
                 <button className={styles.botaoAdicionar}>
-                    <Icon className={styles.imagemAdicionar} icon="ph:plus-circle" />
+                    <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
                 </button>
                 <div className={styles.caixaBotao}>
                     <button className={styles.botao}>Salvar</button>
