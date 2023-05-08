@@ -9,17 +9,17 @@ import MapaFooter from './components/MapaFooter'
 import InfoFooter from './components/InfoFooter'
 
 function App() {
-  return (
-    <div className="App">
-      <Acessibilidade/>
-      <Header/>
-      <NavBar/>
-      <Rotas/>
-      <MapaFooter/>
-      <LogosFooter/>
-      <InfoFooter/>
-    </div>
-  )
+    return (
+        <div className="App">
+            <Acessibilidade/>
+            <Header/>
+            <NavBar/>
+            <Rotas/>
+            <MapaFooter/>
+            <LogosFooter/>
+            <InfoFooter/>
+        </div>
+    )
 }
 
 export default App
