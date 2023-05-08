@@ -1,12 +1,9 @@
-import React from "react"
-import styles from "./SearchBar.module.css"
-import { Icon } from '@iconify/react'
+import React from 'react'
+import styles from './styles.module.css'
+import {Icon} from '@iconify/react'
 
-const SearchBar =()=>{
+const BarraPesquisa =()=>{
     return(
-        // <div className={styles.caixa}>
-        //     <input className={styles.searchBar} placeholder="Pesquisar"/>
-        // </div>
         <div className={styles.caixa}>
             <fieldset className={styles.searchBar}>
                 <input className={styles.searchInput} placeholder="Pesquisar"/>
@@ -18,4 +15,4 @@ const SearchBar =()=>{
     ) 
 }
 
-export default SearchBar
+export default BarraPesquisa

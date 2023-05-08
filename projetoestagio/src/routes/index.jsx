@@ -15,15 +15,15 @@ function Rotas() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/Trabalho" element={<Trabalho/>}/>
-                <Route path="/Integrantes" element={<Integrantes/>}/>
-                <Route path='/Etapas' element={<Etapas/>}/>
-                <Route path='/Orientador' element={<Orientador/>}/>
-                <Route path='/Solicitacoes' element={<Solicitacoes/>}/>
-                <Route path='/Trabalhos' element={<Trabalhos/>}/>
-                <Route path='/Editar' element={<Editar/>}/>
-                <Route path='/Login' element={<Login/>}/>
-                <Route path='/Orientadores' element={<Orientadores/>}/>
+                <Route path="/trabalho" element={<Trabalho/>}/>
+                <Route path="/integrantes" element={<Integrantes/>}/>
+                <Route path='/etapas' element={<Etapas/>}/>
+                <Route path='/orientador' element={<Orientador/>}/>
+                <Route path='/solicitacoes' element={<Solicitacoes/>}/>
+                <Route path='/trabalhos' element={<Trabalhos/>}/>
+                <Route path='/editar' element={<Editar/>}/>
+                <Route path='/login' element={<Login/>}/>
+                <Route path='/orientadores' element={<Orientadores/>}/>
             </Routes>
         </Router>
     )

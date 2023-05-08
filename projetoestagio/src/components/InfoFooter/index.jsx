@@ -1,5 +1,5 @@
 import React from "react"
-import styles from './InfoFooter.module.css'
+import styles from './styles.module.css'
 
 const InfoFooter =()=>{
     return(

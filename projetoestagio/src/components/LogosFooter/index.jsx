@@ -1,5 +1,5 @@
 import React from "react"
-import styles from './LogosFooter.module.css'
+import styles from './styles.module.css'
 import LogoFatec from '../../assets/images/LogoFatecZL.png'
 import LogoGoverno from '../../assets/images/LogoGovernoeCps.png'
 
