@@ -21,7 +21,7 @@
 .caixaBloco{
     display: flex;
     justify-content: center;
-    gap: 3.5rem;
+    gap: 1rem;
 }
 
 .bloco{
@@ -86,5 +86,10 @@
 
 .textoBloco{
     color: #757575;
-    text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .caixaBloco{
+        flex-direction: column;
+    }
 }
