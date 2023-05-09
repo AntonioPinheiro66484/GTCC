@@ -1,9 +1,17 @@
 import React from 'react'
 import styles from './styles.module.css'
+import LogoFatec from '../../assets/images/LogoFatecZL.png'
+import {Icon} from '@iconify/react'
 
 const NavBar =()=>{
     return(
         <nav className={styles.navBar}>
+            <div className={styles.topoNavBar}>
+                <button className={styles.menuHamburguer}>
+                    <Icon icon="ic:baseline-menu"/>
+                </button>
+                <img className={styles.logoFatec} src={LogoFatec}/>
+            </div>
             <ul className={styles.paiItens}>
                 <li className={styles.item}><a className={styles.linkItem} href="/">Início</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/trabalho">Trabalho</a></li>
