@@ -5,12 +5,30 @@
     padding: 2rem;
 }
 
+.menuHamburguer{
+    display: none;
+    font-size: 2.5rem;
+    border: none;
+    background-color: transparent;
+    color: #757575;
+}
+
 .logoFatec{
-    width: 15%;
-    height: 15%;
+    width: 8rem;
 }
 
 .logoGoverno{
-    width: 45%;
-    height: 45%;
+    width: 24rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .caixa{
+        justify-content: space-between;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+        padding: 1.5rem;
+    }
+
+    .menuHamburguer{
+        display: flex;
+    }
 }
