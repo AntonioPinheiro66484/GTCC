@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
-import LogoFatec from '../../assets/images/LogoFatecZL.png'
 import {Icon} from '@iconify/react'
+import Logo3 from '../../assets/images/Logo3.png'
 
 const NavBar =()=>{
     return(
@@ -10,7 +10,7 @@ const NavBar =()=>{
                 <button className={styles.menuHamburguer}>
                     <Icon icon="ic:baseline-menu"/>
                 </button>
-                <img className={styles.logoFatec} src={LogoFatec}/>
+                <img className={styles.logoImagem} src={Logo3}/>
             </div>
             <ul className={styles.paiItens}>
                 <li className={styles.item}><a className={styles.linkItem} href="/">Início</a></li>

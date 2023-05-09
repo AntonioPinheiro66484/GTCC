@@ -63,6 +63,11 @@
         display: flex;
     }
 
+    .logoFatec{
+        width: 8rem;
+        margin: 1rem;
+    }
+
     .paiItens{
         flex-direction: column;
         gap: 0;
