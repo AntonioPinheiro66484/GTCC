@@ -18,9 +18,9 @@ const TiposTrabalho =()=>{
                         <button className={styles.botao}>Excluir</button>
                     </div>
                 </div>
-                <button className={styles.botaoAdicionar}>
+                <a href="./cadastrar-tipo-de-trabalho"><button className={styles.botaoAdicionar}>
                     <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
-                </button>
+                </button></a>
             </div>
         </div>
     )
