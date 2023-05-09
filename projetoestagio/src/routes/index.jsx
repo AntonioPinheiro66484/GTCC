@@ -11,6 +11,7 @@ import Login from '../pages/Login'
 import Orientadores from '../pages/Orientadores'
 import TiposTrabalho from '../pages/TiposTrabalho'
 import EditarTipoTrabalho from '../pages/EditarTipoTrabalho'
+import CadastrarTipoTrabalho from '../pages/CadastrarTipoTrabalho'
 
 function Rotas() {
     return (
@@ -28,6 +29,7 @@ function Rotas() {
                 <Route path='/orientadores' element={<Orientadores/>}/>
                 <Route path='/tipos-de-trabalho' element={<TiposTrabalho/>}/>
                 <Route path='/editar-tipo-de-trabalho' element={<EditarTipoTrabalho/>}/>
+                <Route path='/cadastrar-tipo-de-trabalho' element={<CadastrarTipoTrabalho/>}/>
             </Routes>
         </Router>
     )
