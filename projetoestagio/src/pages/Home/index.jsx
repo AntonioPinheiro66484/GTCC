@@ -1,12 +1,10 @@
 import React from 'react'
 import styles from './styles.module.css'
-import Logo3 from '../../assets/images/Logo3.png'
 import {Icon} from '@iconify/react'
 
 const Home =()=>{
     return(
         <div className={styles.caixa}>
-            <img className={styles.logoImagem} src={Logo3}/>
             <h1 className={styles.tituloPrincipal}>Para quem foi criado?</h1>
             <div className={styles.caixaBloco}>
                 <div className={styles.bloco}>
