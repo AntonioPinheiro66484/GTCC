@@ -1,0 +1,9 @@
+:root{
+    --text-color: #757575;
+    --main-title-color: rgb(51 51 51);
+    --block-title-color: #0b6374;
+    --background-color: #fff;
+    --button-color: rgb(0 92 110);
+    --round-button-color: #333c;
+    --button-hover-color: #2bb8c9;
+}

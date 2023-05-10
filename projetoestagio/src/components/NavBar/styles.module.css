@@ -26,7 +26,7 @@
 .paiItens{
     display: flex;
     justify-content: space-around;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .item{
@@ -37,10 +37,6 @@
 .linkItem{
     color: #757575;
     text-decoration: none;
-    width: 100%;
-    height: 100%;
-    padding-block: 1.25rem;
-    padding-inline: 0.75rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -82,5 +78,8 @@
 
     .linkItem{
         width: 100%;
+        height: 100%;
+        padding-block: 1.25rem;
+        padding-inline: 0.75rem;
     }
 }

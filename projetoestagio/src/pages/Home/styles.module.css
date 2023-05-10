@@ -54,10 +54,11 @@
 .fundoImagem1, .fundoImagem2, .fundoImagem3{
     display: flex;
     border-radius: 50%;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
 }
 
 .fundoImagem1 .imagem{
@@ -72,11 +73,6 @@
 
 .fundoImagem3 .imagem{
     color: rgba(28, 39, 240);
-}
-
-.imagem{
-    width: 2.5rem;
-    height: 2.5rem;
 }
 
 .tituloBloco{
