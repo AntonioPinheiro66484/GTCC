@@ -1,15 +1,21 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from './styles.module.css'
 import {Icon} from '@iconify/react'
 import Logo3 from '../../assets/images/Logo3.png'
+import MenuHamburguer from '../MenuHamburguer'
 
 const NavBar =()=>{
+    const [open, setOpen] = useState(true)
+
     return(
-        <nav className={styles.navBar}>
+        <nav className={open ? styles.navBar : styles.navBarClosed} onClick={() => setOpen(false)}>
             <div className={styles.topoNavBar}>
-                <button className={styles.menuHamburguer}>
+                {/*
+                <button className={styles.menuHamburguer} onClick={() => setOpen(!open)}>
                     <Icon icon="ic:baseline-menu"/>
                 </button>
+                */}
+                <MenuHamburguer value={false}/>
                 <img className={styles.logoImagem} src={Logo3}/>
             </div>
             <ul className={styles.paiItens}>
