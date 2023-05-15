@@ -12,7 +12,7 @@ const NavBar =({active})=>{
     return(
         <nav className={styles.navBar} navBar={active}>
             <div className={styles.topoNavBar}>
-                <Icon icon="ic:baseline-menu" onClick={closeNavBar}/>
+                <Icon className={styles.menuHamburguer} icon="ic:baseline-menu" onClick={closeNavBar}/>
                 <img className={styles.logoImagem} src={Logo3}/>
             </div>
             <ul className={styles.paiItens}>

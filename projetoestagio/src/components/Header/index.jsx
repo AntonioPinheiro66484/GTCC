@@ -12,7 +12,7 @@ const Header =()=>{
 
     return(
         <div className={styles.caixa}>
-            <Icon icon="ic:baseline-menu" onClick={showNavBar}/>
+            <Icon className={styles.menuHamburguer} icon="ic:baseline-menu" onClick={showNavBar}/>
             {navBar && <NavBar active={setNavBar}/>}
             <div>
                 <img className={styles.logoFatec} src={LogoFatec}/>
