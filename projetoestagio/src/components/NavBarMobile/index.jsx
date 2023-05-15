@@ -1,9 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from './styles.module.css'
+import {Icon} from '@iconify/react'
+import Logo3 from '../../assets/images/Logo3.png'
 
-const NavBar =()=>{
+const NavBarMobile =({active})=>{
+
+    const closeNavBar =()=>{
+        active(false)
+    }
+
     return(
-        <nav className={styles.navBar}>
+        <nav className={styles.navBar} navBar={active}>
+            <div className={styles.topoNavBar}>
+                <Icon className={styles.menuHamburguer} icon="ic:baseline-menu" onClick={closeNavBar}/>
+                <img className={styles.logoImagem} src={Logo3}/>
+            </div>
             <ul className={styles.paiItens}>
                 <li className={styles.item}><a className={styles.linkItem} href="/">Início</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/trabalho">Trabalho</a></li>
@@ -18,4 +29,4 @@ const NavBar =()=>{
     ) 
 }
 
-export default NavBar 
+export default NavBarMobile

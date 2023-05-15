@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 import LogoFatec from '../../assets/images/LogoFatecZL.png'
 import LogoGoverno from '../../assets/images/LogoGovernoeCps.png'
 import {Icon} from '@iconify/react'
-import NavBar from '../NavBar';
+import NavBarMobile from '../NavBarMobile';
 
 const Header =()=>{
     const [navBar, setNavBar] = useState(false)
@@ -13,7 +13,7 @@ const Header =()=>{
     return(
         <div className={styles.caixa}>
             <Icon className={styles.menuHamburguer} icon="ic:baseline-menu" onClick={showNavBar}/>
-            {navBar && <NavBar active={setNavBar}/>}
+            {navBar && <NavBarMobile active={setNavBar}/>}
             <div>
                 <img className={styles.logoFatec} src={LogoFatec}/>
                 <img className={styles.logoGoverno} src={LogoGoverno}/>
