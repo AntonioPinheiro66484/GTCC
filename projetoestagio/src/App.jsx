@@ -6,10 +6,12 @@ import NavBar from './components/NavBar'
 import LogosFooter from './components/LogosFooter'
 import MapaFooter from './components/MapaFooter'
 import InfoFooter from './components/InfoFooter'
+import VLibras from './components/VLibras'
 
 function App() {
     return (
         <div className="App">
+
             <Acessibilidade/>
             <Header/>
             <NavBar/>
@@ -17,6 +19,7 @@ function App() {
             <MapaFooter/>
             <LogosFooter/>
             <InfoFooter/>
+            <VLibras/>
         </div>
     )
 }

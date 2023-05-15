@@ -28,6 +28,15 @@ const NavBar =()=>{
                 <li className={styles.item}><a className={styles.linkItem} href="/login">Entrar</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="http://suporte.fateczl.edu.br">Suporte</a></li>
             </ul> 
+            <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+         </div>
+         <div>
+
+        </div>
         </nav>
     ) 
 }
