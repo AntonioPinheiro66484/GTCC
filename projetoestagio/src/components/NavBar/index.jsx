@@ -2,20 +2,17 @@ import React,{useState} from 'react'
 import styles from './styles.module.css'
 import {Icon} from '@iconify/react'
 import Logo3 from '../../assets/images/Logo3.png'
-import MenuHamburguer from '../MenuHamburguer'
 
-const NavBar =()=>{
-    const [open, setOpen] = useState(true)
+const NavBar =({active})=>{
+
+    const closeNavBar =()=>{
+        active(false)
+    }
 
     return(
-        <nav className={open ? styles.navBar : styles.navBarClosed} onClick={() => setOpen(false)}>
+        <nav className={styles.navBar} navBar={active}>
             <div className={styles.topoNavBar}>
-                {/*
-                <button className={styles.menuHamburguer} onClick={() => setOpen(!open)}>
-                    <Icon icon="ic:baseline-menu"/>
-                </button>
-                */}
-                <MenuHamburguer value={false}/>
+                <Icon icon="ic:baseline-menu" onClick={closeNavBar}/>
                 <img className={styles.logoImagem} src={Logo3}/>
             </div>
             <ul className={styles.paiItens}>
@@ -27,16 +24,7 @@ const NavBar =()=>{
                 <li className={styles.item}><a className={styles.linkItem} href="/tipos-de-trabalho">Tipos de trabalho</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/login">Entrar</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="http://suporte.fateczl.edu.br">Suporte</a></li>
-            </ul> 
-            <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-         </div>
-         <div>
-
-        </div>
+            </ul>
         </nav>
     ) 
 }

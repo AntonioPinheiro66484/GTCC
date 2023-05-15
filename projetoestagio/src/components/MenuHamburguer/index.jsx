@@ -1,9 +1,9 @@
-import React,{useState} from 'react'
+import React from 'react'
 import styles from './styles.module.css'
 import {Icon} from '@iconify/react'
 
 const MenuHamburguer = (props) => {
-    const [open, setOpen] = useState(false)
+
     
     return (
         <button className={styles.menuHamburguer} onClick={() => setOpen(props.value)}>
