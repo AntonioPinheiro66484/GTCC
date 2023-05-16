@@ -1,0 +1,34 @@
+.barraAcessibilidade{
+    display: flex;
+    background-color: #950202;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 1rem;
+    margin-inline: 2rem;
+}
+
+.caixaItens{
+    display: flex;
+    width: 25%;
+    white-space: nowrap;
+    gap: 1.5rem;
+}
+
+.item{
+    color: #fff;
+}
+
+.item:hover{
+    text-decoration: underline;
+}
+
+.linkItem{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .barraAcessibilidade{
+        display: none;
+    }    
+}
