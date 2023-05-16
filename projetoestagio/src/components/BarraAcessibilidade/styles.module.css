@@ -3,8 +3,8 @@
     background-color: #950202;
     align-items: center;
     justify-content: space-between;
-    margin-block: 1rem;
-    margin-inline: 2rem;
+    padding-block: 0.5rem;
+    padding-inline: 2rem;
 }
 
 .caixaItens{
