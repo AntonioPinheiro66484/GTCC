@@ -23,7 +23,7 @@
     margin: 1rem;
 }
 
-.paiItens{
+.caixaItens{
     display: flex;
     justify-content: space-around;
     gap: 2.5rem;

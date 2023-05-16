@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 const NavBar =()=>{
     return(
         <nav className={styles.navBar}>
-            <ul className={styles.paiItens}>
+            <ul className={styles.caixaItens}>
                 <li className={styles.item}><a className={styles.linkItem} href="/">Início</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/trabalho">Trabalho</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/orientadores">Orientadores</a></li>
