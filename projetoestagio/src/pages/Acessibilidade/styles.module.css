@@ -1,0 +1,13 @@
+.caixa{
+    display: flex;
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloPrincipal{
+    color: rgb(51 51 51 / 1);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
