@@ -7,7 +7,7 @@ const Trabalho =()=>{
         <div className={styles.caixa}>
             <div className={styles.topoCaixa}>
                 <h1 className={styles.tituloPrincipal}>Site 1</h1>
-                <a href="/Editar" className={styles.linkEditar}><Icon className={styles.imagemEditar} icon="material-symbols:edit"/></a>
+                <a href="/editar-trabalho" className={styles.linkEditar}><Icon className={styles.imagemEditar} icon="material-symbols:edit"/></a>
             </div>
             <div className={styles.caixaBloco}>
                 <div>
@@ -22,7 +22,7 @@ const Trabalho =()=>{
                     <div className={styles.bloco}>
                         <div className={styles.topoBloco}>
                             <h2 className={styles.tituloBloco}>Integrantes</h2>
-                            <a href="/Integrantes" className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
+                            <a href="/integrantes" className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
                         </div>
                         <p className={styles.textoBloco}>Ana</p>
                         <p className={styles.textoBloco}>Carlos</p>
@@ -31,7 +31,7 @@ const Trabalho =()=>{
                     <div className={styles.bloco}>
                         <div className={styles.topoBloco}>
                             <h2 className={styles.tituloBloco}>Etapas</h2>
-                            <a  href="/Etapas" className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
+                            <a  href="/etapas" className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
                         </div>
                         <p className={styles.textoBloco}>Etapa 1</p>
                         <p className={styles.textoBloco}>Etapa 2</p>
@@ -47,7 +47,7 @@ const Trabalho =()=>{
                     <div className={styles.bloco}>
                         <div className={styles.topoBloco}>
                             <h2 className={styles.tituloBloco}>Orientador</h2>
-                            <a href="/Orientador"className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
+                            <a href="/orientador"className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
                         </div>
                         <p className={styles.textoBloco}>Maria</p>
                     </div>

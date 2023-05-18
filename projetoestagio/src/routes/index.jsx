@@ -6,7 +6,7 @@ import Etapas from '../pages/Etapas'
 import Orientador from '../pages/Orientador'
 import Solicitacoes from '../pages/Solicitacoes'
 import Trabalhos from '../pages/Trabalhos'
-import Editar from '../pages/Editar'
+import EditarTrabalho from '../pages/EditarTrabalho'
 import Login from '../pages/Login'
 import Orientadores from '../pages/Orientadores'
 import TiposTrabalho from '../pages/TiposTrabalho'
@@ -25,7 +25,7 @@ function Rotas() {
                 <Route path='/orientador' element={<Orientador/>}/>
                 <Route path='/solicitacoes' element={<Solicitacoes/>}/>
                 <Route path='/trabalhos' element={<Trabalhos/>}/>
-                <Route path='/editar' element={<Editar/>}/>
+                <Route path='/editar-trabalho' element={<EditarTrabalho/>}/>
                 <Route path='/login' element={<Login/>}/>
                 <Route path='/orientadores' element={<Orientadores/>}/>
                 <Route path='/tipos-de-trabalho' element={<TiposTrabalho/>}/>
