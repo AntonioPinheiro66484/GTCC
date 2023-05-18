@@ -1,18 +1,18 @@
-import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
-import Home from '../pages/Home'
-import Trabalho from '../pages/Trabalho'
-import Integrantes from '../pages/Integrantes'
-import Etapas from '../pages/Etapas'
-import Orientador from '../pages/Orientador'
-import Solicitacoes from '../pages/Solicitacoes'
-import Trabalhos from '../pages/Trabalhos'
-import EditarTrabalho from '../pages/EditarTrabalho'
-import Login from '../pages/Login'
-import Orientadores from '../pages/Orientadores'
-import TiposTrabalho from '../pages/TiposTrabalho'
-import EditarTipoTrabalho from '../pages/EditarTipoTrabalho'
-import CadastrarTipoTrabalho from '../pages/CadastrarTipoTrabalho'
-import Acessibilidade from '../pages/Acessibilidade'
+import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import Home from "../pages/Home";
+import Trabalho from "../pages/Trabalho";
+import Integrantes from "../pages/Integrantes";
+import Etapas from "../pages/Etapas";
+import Orientador from "../pages/Orientador";
+import Solicitacoes from "../pages/Solicitacoes";
+import Trabalhos from "../pages/Trabalhos";
+import EditarTrabalho from "../pages/EditarTrabalho";
+import Login from "../pages/Login";
+import Orientadores from "../pages/Orientadores";
+import TiposTrabalho from "../pages/TiposTrabalho";
+import EditarTipoTrabalho from "../pages/EditarTipoTrabalho";
+import CadastrarTipoTrabalho from "../pages/CadastrarTipoTrabalho";
+import Acessibilidade from "../pages/Acessibilidade";
 
 function Rotas() {
     return (

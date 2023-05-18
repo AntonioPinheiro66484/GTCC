@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './styles.module.css'
-import {Icon} from '@iconify/react'
+import React from "react";
+import styles from "./styles.module.css";
+import { Icon } from "@iconify/react";
 
 const Home =()=>{
     return(

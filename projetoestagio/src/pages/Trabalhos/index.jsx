@@ -1,6 +1,6 @@
 import React from "react";
-import styles from './styles.module.css'
-import BarraPesquisa from '../../components/BarraPesquisa'
+import styles from "./styles.module.css";
+import BarraPesquisa from "../../components/BarraPesquisa";
 
 const Trabalhos =()=>{
     return(

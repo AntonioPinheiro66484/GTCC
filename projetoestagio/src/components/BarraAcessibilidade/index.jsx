@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { aumentarFonte, diminuirFonte } from "../static/fonte";
+import { aumentarFonte,diminuirFonte } from "../static/fonte";
 
 const BarraAcessibilidade =()=>{
     return(

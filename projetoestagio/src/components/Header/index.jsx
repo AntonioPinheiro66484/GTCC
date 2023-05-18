@@ -1,9 +1,9 @@
-import React, {useState} from "react";
-import styles from './styles.module.css';
-import LogoFatec from '../../assets/images/LogoFatecZL.png'
-import LogoGoverno from '../../assets/images/LogoGovernoeCps.png'
-import {Icon} from '@iconify/react'
-import NavBarMobile from '../NavBarMobile';
+import React,{ useState } from "react";
+import styles from "./styles.module.css";
+import LogoFatec from "../../assets/images/LogoFatecZL.png";
+import LogoGoverno from "../../assets/images/LogoGovernoeCps.png";
+import { Icon } from "@iconify/react";
+import NavBarMobile from "../NavBarMobile";
 
 const Header =()=>{
     const [navBar, setNavBar] = useState(false)

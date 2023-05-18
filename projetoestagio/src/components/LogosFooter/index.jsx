@@ -1,7 +1,7 @@
-import React from "react"
-import styles from './styles.module.css'
-import LogoFatec from '../../assets/images/LogoFatecZL.png'
-import LogoGoverno from '../../assets/images/LogoGovernoeCps.png'
+import React from "react";
+import styles from "./styles.module.css";
+import LogoFatec from "../../assets/images/LogoFatecZL.png";
+import LogoGoverno from "../../assets/images/LogoGovernoeCps.png";
 
 const LogosFooter =()=>{
     return(
