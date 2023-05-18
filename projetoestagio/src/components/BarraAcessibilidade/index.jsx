@@ -1,23 +1,8 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React from "react";
+import styles from "./styles.module.css";
+import { aumentarFonte, diminuirFonte } from "../static/fonte";
 
 const BarraAcessibilidade =()=>{
-    var tamanhoFonte = 16
-
-    const aumentarFonte =()=>{
-        if (tamanhoFonte < 20) {
-            tamanhoFonte++
-            document.body.style.fontSize = tamanhoFonte + "px"
-        }
-    }
-
-    const diminuirFonte =()=>{
-        if (tamanhoFonte > 14) {
-            tamanhoFonte--
-            document.body.style.fontSize = tamanhoFonte + "px"
-        }
-    }
-
     return(
         <div className={styles.barraAcessibilidade}>
             <ul className={styles.caixaItens}>
