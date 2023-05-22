@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
 
-const Botao =()=>{
+const Botao =(props)=>{
     return (
-        <button className={styles.botao}>{prop.label}</button>
+        <button className={styles.botao}>{props.label}</button>
     )
 }
 
