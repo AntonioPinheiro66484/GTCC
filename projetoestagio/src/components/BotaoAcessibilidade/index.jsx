@@ -1,27 +1,27 @@
 import React from "react";
 import styles from "./styles.module.css";
 import {Icon} from "@iconify/react";
-
+import { aumentarFonte,diminuirFonte } from "../../static/fonte";
 const BotaoAcessibilidade =()=>{
     return (
         <ul className={styles.caixa}>
             <li>
-                <button className={styles.botaoPrincipal}>
+                <div className={styles.botaoPrincipal}>
                     <Icon icon="lucide:person-standing"/>
-                </button>
+                </div>
                 <ul className={styles.caixaOpcoes}>
-                    <li>
+                    <li >
                         <button className={styles.botaoSecundario}>
                             <Icon icon="material-symbols:contrast"/>
                         </button>
                     </li>
                     <li>
-                        <button className={styles.botaoSecundario}>
+                        <button onClick={aumentarFonte} className={styles.botaoSecundario}>
                             <Icon icon="fluent-mdl2:font-increase"/>
                         </button>
                     </li>
                     <li>
-                        <button className={styles.botaoSecundario}>
+                        <button onClick={diminuirFonte} className={styles.botaoSecundario}>
                             <Icon icon="fluent-mdl2:font-decrease"/>
                         </button>
                     </li>
