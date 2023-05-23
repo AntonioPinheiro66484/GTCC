@@ -7,11 +7,11 @@ const MapaFooter =()=>{
                 <div className={styles.caixaLista}>
                     <ul className={styles.lista}>
                         <li><h2 className={styles.tituloLista}>Trabalho</h2></li>
-                        <li><a href="/PaginaTrabalho" className={styles.itemLista}>Meu trabalho</a></li>
-                        <li><a href="/PaginaIntegrantes" className={styles.itemLista}>Integrantes</a></li>
-                        <li><a href="PaginaOrientador"className={styles.itemLista}>Orientador</a></li>
-                        <li><a href="/PaginaEtapas" className={styles.itemLista}>Etapas</a></li>
-                        <li><a href="/PaginaTrabalhos" className={styles.itemLista}>Trabalhos</a></li>
+                        <li><a href="/trabalho" className={styles.itemLista}>Meu trabalho</a></li>
+                        <li><a href="/integrantes" className={styles.itemLista}>Integrantes</a></li>
+                        <li><a href="orientador"className={styles.itemLista}>Orientador</a></li>
+                        <li><a href="/etapas" className={styles.itemLista}>Etapas</a></li>
+                        <li><a href="/trabalhos" className={styles.itemLista}>Trabalhos</a></li>
                     </ul>
                     <ul className={styles.lista}>
                         <li><h2 className={styles.tituloLista}>Suporte</h2></li>
