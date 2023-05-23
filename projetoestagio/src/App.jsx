@@ -6,12 +6,14 @@ import NavBar from "./components/NavBar";
 import LogosFooter from "./components/LogosFooter";
 import MapaFooter from "./components/MapaFooter";
 import InfoFooter from "./components/InfoFooter";
+import BotaoAcessibilidade from "./components/BotaoAcessibilidade";
 
 function App() {
     return (
         <div className="App">
             <BarraAcessibilidade/>
             <Header/>
+            <BotaoAcessibilidade/>
             <NavBar/>
             <Rotas/>
             <MapaFooter/>
