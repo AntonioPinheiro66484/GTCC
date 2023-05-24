@@ -17,7 +17,7 @@
 
 .tituloPrincipal{
     color: rgb(51 51 51 / 1);
-    font-size: 1.5rem;
+    font-size: 1.5em;
     padding-bottom: 2rem;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .labelPrincipal{
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: #0B6374;
     font-weight: bold;
 }

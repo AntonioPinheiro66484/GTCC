@@ -16,7 +16,7 @@
 .searchInput{
     width: 90%;
     padding-block: 0.5rem;
-    padding-inline: 0.75rem;
+    padding-left: 0.75rem;
     outline: none;
 }
 
