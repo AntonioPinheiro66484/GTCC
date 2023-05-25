@@ -1,14 +1,11 @@
 .navBar{
     display: none;
-    /*justify-content: center;*/
     background-color: #fff;
     top: 0;
     left: 0;
     position: fixed;
     width: 20rem;
     height: 100%;
-    /*padding-block: 0.5rem;
-    padding-inline: 1rem;*/
     padding: 1.5rem;
     flex-direction: column;
     gap: 1.5rem;
@@ -32,18 +29,12 @@
 }
 
 .logoImagem{
-    width: 6rem;
-    /*margin: 1rem;*/
+    height: 2.5rem;
 }
 
 .paiItens{
     display: flex;
-    /*justify-content: space-around;
-    gap: 2.5rem;*/
     flex-direction: column;
-    /*gap: 0;
-    width: 100%;
-    height: 100%;*/
 }
 
 .item{

@@ -14,12 +14,16 @@
     cursor: pointer;
 }
 
+.caixaLogo{
+    display: flex;
+}
+
 .logoFatec{
-    width: 8rem;
+    height: 5rem;
 }
 
 .logoGoverno{
-    width: 24rem;
+    height: 5rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -34,10 +38,10 @@
     }
 
     .logoFatec{
-        width: 4rem;
+        height: 2.5rem;
     }
     
     .logoGoverno{
-        width: 12rem;
+        height: 2.5rem;
     }
 }

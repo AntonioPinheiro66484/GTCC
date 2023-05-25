@@ -13,7 +13,7 @@ const NavBarMobile =({active})=>{
         <nav className={styles.navBar} navBar={active}>
             <div className={styles.topoNavBar}>
                 <Icon className={styles.menuHamburguer} icon="ic:baseline-menu" onClick={closeNavBar}/>
-                <img alt="Logo"/*alt="Logo Gestão de Trabalho de Conclusão de Curso (GTCC)"*/ className={styles.logoImagem} src={Logo3} />
+                <img alt="Logo" className={styles.logoImagem} src={Logo3}/>
             </div>
             <ul className={styles.paiItens}>
                 <li className={styles.item}><a className={styles.linkItem} href="/">Início</a></li>
