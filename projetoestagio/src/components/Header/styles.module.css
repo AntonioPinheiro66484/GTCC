@@ -32,4 +32,12 @@
     .menuHamburguer{
         display: flex;
     }
+
+    .logoFatec{
+        width: 4rem;
+    }
+    
+    .logoGoverno{
+        width: 12rem;
+    }
 }
