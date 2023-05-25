@@ -15,8 +15,8 @@ const Header =()=>{
             <Icon className={styles.menuHamburguer} icon="ic:baseline-menu" onClick={showNavBar}/>
             {navBar && <NavBarMobile active={setNavBar}/>}
             <div>
-                <img className={styles.logoFatec} src={LogoFatec}/>
-                <img className={styles.logoGoverno} src={LogoGoverno}/>
+                <img className={styles.logoFatec} alt="Fatec Zona Leste" src={LogoFatec}/>
+                <img className={styles.logoGoverno} alt="Centro Paula Souza, Governo do Estado de São Paulo" src={LogoGoverno}/>
             </div>
         </div>
     )
