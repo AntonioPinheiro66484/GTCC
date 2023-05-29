@@ -13,6 +13,7 @@ import TiposTrabalho from "../pages/TiposTrabalho";
 import EditarTipoTrabalho from "../pages/EditarTipoTrabalho";
 import CadastrarTipoTrabalho from "../pages/CadastrarTipoTrabalho";
 import Acessibilidade from "../pages/Acessibilidade";
+import EditarEtapa from "../pages/EditarEtapa";
 
 function Rotas() {
     return (
@@ -32,6 +33,7 @@ function Rotas() {
                 <Route path='/editar-tipo-de-trabalho' element={<EditarTipoTrabalho/>}/>
                 <Route path='/cadastrar-tipo-de-trabalho' element={<CadastrarTipoTrabalho/>}/>
                 <Route path='/acessibilidade' element={<Acessibilidade/>}/>
+                <Route path='/editar-etapa' element={<EditarEtapa/>}/>
             </Routes>
         </Router>
     )

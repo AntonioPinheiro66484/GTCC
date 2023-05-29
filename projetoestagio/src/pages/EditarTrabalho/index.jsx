@@ -39,24 +39,6 @@ const EditarTrabalho =()=>{
                     <label className={styles.labelPrincipal}>Descrição</label>
                     <input className={styles.input} type="text"/>
                 </div>
-                <fieldset className={styles.caixaFieldset}>
-                    <legend className={styles.legendPrincipal}>Etapa 1</legend>
-                    <label className={styles.labelSecundaria}>Nome</label>
-                    <input className={styles.input} type="text"/>
-                    <label className={styles.labelSecundaria}>Prazo</label>
-                    <input className={styles.input} type="text"/>
-                    <label className={styles.labelSecundaria}>Status</label>
-                    <input className={styles.input} type="text"/>
-                </fieldset>
-                <fieldset className={styles.caixaFieldset}>
-                    <legend className={styles.legendPrincipal}>Etapa 2</legend>
-                    <label className={styles.labelSecundaria}>Nome</label>
-                    <input className={styles.input} type="text"/>
-                    <label className={styles.labelSecundaria}>Prazo</label>
-                    <input className={styles.input} type="text"/>
-                    <label className={styles.labelSecundaria}>Status</label>
-                    <input className={styles.input} type="text"/>
-                </fieldset>
                 <button className={styles.botaoAdicionar}>
                     <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
                 </button>

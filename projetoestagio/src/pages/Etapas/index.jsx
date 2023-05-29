@@ -49,6 +49,9 @@ const Etapas =()=>{
                             <button className={styles.botaoConcluir}>Marcar como concluída</button>
                         </div>
                     </div>
+                    <button className={styles.botaoAdicionar}>
+                        <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
+                    </button>
                 </div>
             </div>
         </div>
