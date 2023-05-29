@@ -48,7 +48,7 @@
 
 .input{
     background-color: #33333325;
-    border: none;
+     border: none;
     border-radius: 0.5rem;
     padding-block: 0.5rem;
     padding-inline: 0.75rem;
@@ -56,10 +56,13 @@
     color: #757575;
 }
 
-.caixaBotao{
-    display: flex;
-    align-items: flex-end;
-    gap: 0.5rem;
+.linkRecuperarConta{
+    text-decoration: none;
+    color: #4C7EFF;
+}
+
+.linkRecuperarConta:hover{
+    text-decoration: underline;
 }
 
 .botao{
@@ -77,5 +80,3 @@
     border: 1px solid #2BB8C9;
     color: #fff;
 }
-
-

@@ -15,7 +15,7 @@ const Login =()=>{
                         <label className={styles.labelPrincipal}>Senha</label>
                         <input className={styles.input} type="password"/>
                     </div>
-                    <a>Esqueceu sua senha?</a>
+                    <a className={styles.linkRecuperarConta} href="">Esqueceu sua senha?</a>
                     <button className={styles.botao}>Entrar</button>
                 </form>
             </div>
