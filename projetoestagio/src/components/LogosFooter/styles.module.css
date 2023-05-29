@@ -12,3 +12,13 @@
 .logoGoverno{
     height: 4rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .logoFatec{
+        height: 2.5rem;
+    }
+    
+    .logoGoverno{
+        height: 2.5rem;
+    }
+}
