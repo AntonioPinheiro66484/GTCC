@@ -1,12 +1,11 @@
-import "./App.css";
+import styles from "./App.css";
 import Rotas from "./routes";
 import BarraAcessibilidade from "./components/BarraAcessibilidade";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import LogosFooter from "./components/LogosFooter";
-import MapaFooter from "./components/MapaFooter";
-import InfoFooter from "./components/InfoFooter";
 import BotaoAcessibilidade from "./components/BotaoAcessibilidade";
+import Footer from "./components/Footer";
+
 
 function App() {
     return (
@@ -16,9 +15,7 @@ function App() {
             <BotaoAcessibilidade/>
             <NavBar/>
             <Rotas/>
-            <MapaFooter/>
-            <LogosFooter/>
-            <InfoFooter/>
+            <Footer/>
         </div>
     )
 }
