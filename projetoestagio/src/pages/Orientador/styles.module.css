@@ -4,6 +4,7 @@
     padding-inline: 1.5rem;
     flex-direction: column;
     align-items: center;
+    min-height: calc(100vh - 36.5rem);
 }
 
 .tituloPrincipal{
@@ -41,5 +42,11 @@
 .textoBloco{
     color: #757575;
     text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .caixa{
+        min-height: calc(100vh - 28.5rem);
+    }
 }
 

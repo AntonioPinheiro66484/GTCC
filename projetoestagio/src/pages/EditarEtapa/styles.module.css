@@ -4,6 +4,7 @@
     padding-inline: 1.5rem;
     align-items: center;
     flex-direction: column;
+    min-height: calc(100vh - 36.5rem);
 }
 
 .tituloPrincipal{
@@ -95,4 +96,10 @@
     background-color: #2BB8C9;
     border: 1px solid #2BB8C9;
     color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .caixa{
+        min-height: calc(100vh - 28.5rem);
+    }
 }
