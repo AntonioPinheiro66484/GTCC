@@ -1,7 +1,12 @@
-import React from "react";
+import React,{useState}from "react";
 import styles from "./styles.module.css";
 import BarraPesquisa from "../../components/BarraPesquisa";
 import { Icon } from "@iconify/react";
+
+const BotaoOpcoes =()=>{
+    const [botaoOpcoes, setBotaoOpcoes] = useState(false)
+    const showBotaoOpcoes = () => setBotaoOpcoes(!botaoOpcoes)
+}
 
 const Etapas =()=>{
     return(
@@ -30,6 +35,13 @@ const Etapas =()=>{
                         </div>
                         <div className={styles.caixaBotao}>
                             <button className={styles.botaoConcluir}>Marcar como concluída</button>
+                            <button className={styles.botaoOpcoes}>
+                                <Icon icon="mi:options-vertical"/>
+                            </button>
+                            <ul class={styles.paiItens}>
+                                <li><button className={styles.item}>Editar</button></li>
+                                <li><button className={styles.item}>Excluir</button></li>
+                            </ul>
                         </div>
                     </div>
                     <div className={styles.bloco}>
