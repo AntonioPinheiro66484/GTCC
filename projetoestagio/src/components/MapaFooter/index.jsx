@@ -3,22 +3,24 @@ import styles from "./styles.module.css";
 
 const MapaFooter =()=>{
     return(
-            <div className={styles.caixa}>
-                <div className={styles.caixaLista}>
-                    <ul className={styles.lista}>
-                        <li><h2 className={styles.tituloLista}>Trabalho</h2></li>
-                        <li><a href="/trabalho" className={styles.itemLista}>Meu trabalho</a></li>
-                        <li><a href="/integrantes" className={styles.itemLista}>Integrantes</a></li>
-                        <li><a href="orientador"className={styles.itemLista}>Orientador</a></li>
-                        <li><a href="/etapas" className={styles.itemLista}>Etapas</a></li>
-                        <li><a href="/trabalhos" className={styles.itemLista}>Trabalhos</a></li>
-                    </ul>
-                    <ul className={styles.lista}>
-                        <li><h2 className={styles.tituloLista}>Suporte</h2></li>
-                        <li><a href="http://suporte.fateczl.edu.br/" className={styles.itemLista}>Abra um chamado</a></li>
-                    </ul>
-                </div>
+        <div className={styles.caixa}>
+            <div className={styles.caixaLista}>
+                <h2 className={styles.tituloLista}>Trabalho</h2>
+                <ul className={styles.lista}>
+                    <li><a href="/trabalho" className={styles.itemLista}>Meu trabalho</a></li>
+                    <li><a href="/integrantes" className={styles.itemLista}>Integrantes</a></li>
+                    <li><a href="/orientador"className={styles.itemLista}>Orientador</a></li>
+                    <li><a href="/etapas" className={styles.itemLista}>Etapas</a></li>
+                    <li><a href="/trabalhos" className={styles.itemLista}>Trabalhos</a></li>
+                </ul>
             </div>
+            <div className={styles.caixaLista}>
+                <h2 className={styles.tituloLista}>Suporte</h2>
+                <ul className={styles.lista}>
+                    <li><a href="http://suporte.fateczl.edu.br/" className={styles.itemLista}>Abra um chamado</a></li>
+                </ul>
+            </div>    
+        </div>
     )
 }
 

@@ -1,17 +1,8 @@
 .caixa{
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 1.5rem;
-}
-
-.caixaLista{
-    display: flex;
     gap: 3.5rem;
-}
-
-.lista{
-    text-align: left;
 }
 
 .tituloLista{
@@ -21,7 +12,24 @@
     margin-bottom: 1rem;
 }
 
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
 .itemLista{
     color: #757575;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 520px){
+    .caixa{
+        flex-direction: column;
+    }
+
+    .caixaLista{
+        text-align: center;
+    }
 }
