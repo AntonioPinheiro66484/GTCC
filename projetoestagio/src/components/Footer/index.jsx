@@ -6,7 +6,7 @@ import MapaFooter from "../MapaFooter";
 
 
 const Footer =()=>{
-    returnI(
+    return(
         <div className={styles.caixa}>
             <MapaFooter/>
             <LogosFooter/>
