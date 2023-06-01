@@ -18,6 +18,7 @@ const Header =()=>{
                 <img className={styles.logoFatec} alt="Fatec Zona Leste" src={LogoFatec}/>
                 <img className={styles.logoGoverno} alt="Centro Paula Souza, Governo do Estado de São Paulo" src={LogoGoverno}/>
             </div>
+            <h1 className={styles.tituloLogo}>Fatec Zona Leste</h1>
         </div>
     )
 }
