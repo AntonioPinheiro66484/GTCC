@@ -46,12 +46,12 @@
 
 .textoBloco{
     color: #757575;
-    text-align: justify;
 }
 
 .caixaBotao{
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .botaoConcluir{

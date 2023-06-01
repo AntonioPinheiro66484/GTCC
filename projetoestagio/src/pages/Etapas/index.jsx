@@ -3,11 +3,6 @@ import styles from "./styles.module.css";
 import BarraPesquisa from "../../components/BarraPesquisa";
 import { Icon } from "@iconify/react";
 
-/*const BotaoOpcoes =()=>{
-    const [botaoOpcoes, setBotaoOpcoes] = useState(false)
-    const showBotaoOpcoes = () => setBotaoOpcoes(!botaoOpcoes)
-}*/
-
 const Etapas =()=>{
     const [botaoOpcoes, setBotaoOpcoes] = useState(false)
 
@@ -21,24 +16,11 @@ const Etapas =()=>{
                 <div className={styles.caixaBloco}>
                     <div className={styles.bloco}>
                         <div className={styles.caixaTexto}>
-                            <h2 className={styles.tituloBloco}>Etapa 1</h2>
-                            <p className={styles.textoBloco}>Definição de identidade do projeto</p>
-                            <p className={styles.textoBloco}>Entrega até segunda-feira, 27 de março</p>
+                            <h2 className={styles.tituloBloco}>1 - Definição de identidade do projeto</h2>
+                            <p className={styles.textoBloco}>Entrega até 27 de março, segunda-feira</p>
                             <p className={styles.textoBloco}>Concluído</p>
                         </div>
                         <div className={styles.caixaBotao}>
-                            <button className={styles.botaoConcluir}>Finalizar</button>
-                        </div>
-                    </div>
-                    <div className={styles.bloco}>
-                        <div className={styles.caixaTexto}>
-                            <h2 className={styles.tituloBloco}>Etapa 2</h2>
-                            <p className={styles.textoBloco}>Estudo de caso do tema escolhido</p>
-                            <p className={styles.textoBloco}>Entrega até quarta-feira, 29 de março</p>
-                            <p className={styles.textoBloco}>Em andamento</p>
-                        </div>
-                        <div className={styles.caixaBotao}>
-                            {/*<button className={styles.botaoConcluir}>Finalizar</button>*/}
                             <button className={styles.botaoOpcoes} onClick={showBotaoOpcoes}>
                                 <Icon icon="mi:options-vertical"/>
                             </button>
@@ -53,20 +35,59 @@ const Etapas =()=>{
                     </div>
                     <div className={styles.bloco}>
                         <div className={styles.caixaTexto}>
-                            <h2 className={styles.tituloBloco}>Etapa 3</h2>
-                            <p className={styles.textoBloco}>Análise de solução proposta</p>
+                            <h2 className={styles.tituloBloco}>2 - Estudo de caso do tema escolhido</h2>
+                            <p className={styles.textoBloco}>Entrega até 29 de março, quarta-feira</p>
+                            <p className={styles.textoBloco}>Em andamento</p>
                         </div>
                         <div className={styles.caixaBotao}>
-                            <button className={styles.botaoConcluir}>Finalizar</button>
+                            <button className={styles.botaoOpcoes} onClick={showBotaoOpcoes}>
+                                <Icon icon="mi:options-vertical"/>
+                            </button>
+                            {botaoOpcoes &&
+                                <ul class={styles.paiItens} active={setBotaoOpcoes}>
+                                    <li><button className={styles.item}>Finalizar</button></li>
+                                    <li><button className={styles.item}>Editar</button></li>
+                                    <li><button className={styles.item}>Excluir</button></li>
+                                </ul>
+                            }
                         </div>
                     </div>
                     <div className={styles.bloco}>
                         <div className={styles.caixaTexto}>
-                            <h2 className={styles.tituloBloco}>Etapa 4</h2>
-                            <p className={styles.textoBloco}>Análise de solução proposta</p>
+                            <h2 className={styles.tituloBloco}>3 - Análise de solução proposta</h2>
+                            <p className={styles.textoBloco}>Entrega até 31 de março, sexta-feira</p>
+                            <p className={styles.textoBloco}>Não iniciada</p>
                         </div>
                         <div className={styles.caixaBotao}>
-                            <button className={styles.botaoConcluir}>Finalizar</button>
+                            <button className={styles.botaoOpcoes} onClick={showBotaoOpcoes}>
+                                <Icon icon="mi:options-vertical"/>
+                            </button>
+                            {botaoOpcoes &&
+                                <ul class={styles.paiItens} active={setBotaoOpcoes}>
+                                    <li><button className={styles.item}>Finalizar</button></li>
+                                    <li><button className={styles.item}>Editar</button></li>
+                                    <li><button className={styles.item}>Excluir</button></li>
+                                </ul>
+                            }
+                        </div>
+                    </div>
+                    <div className={styles.bloco}>
+                        <div className={styles.caixaTexto}>
+                            <h2 className={styles.tituloBloco}>4 - Análise de solução proposta</h2>
+                            <p className={styles.textoBloco}>Entrega até 2 de março, domingo</p>
+                            <p className={styles.textoBloco}>Não iniciada</p>
+                        </div>
+                        <div className={styles.caixaBotao}>
+                            <button className={styles.botaoOpcoes} onClick={showBotaoOpcoes}>
+                                <Icon icon="mi:options-vertical"/>
+                            </button>
+                            {botaoOpcoes &&
+                                <ul class={styles.paiItens} active={setBotaoOpcoes}>
+                                    <li><button className={styles.item}>Finalizar</button></li>
+                                    <li><button className={styles.item}>Editar</button></li>
+                                    <li><button className={styles.item}>Excluir</button></li>
+                                </ul>
+                            }
                         </div>
                     </div>
                     <button className={styles.botaoAdicionar}>
