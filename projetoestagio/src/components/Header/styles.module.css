@@ -26,6 +26,12 @@
     height: 5rem;
 }
 
+.tituloLogo{
+    display: none;
+    font-size: 1rem;
+    color: #394958;
+}
+
 @media screen and (max-width: 1024px) {
     .caixa{
         justify-content: space-between;
@@ -46,14 +52,8 @@
     }
 }
 
-@media screen and (max-width: 520px) {
-    .caixaLogo{
+@media screen and (max-width: 430px) {
+    .logoGoverno{
         display: none;
-    }
-
-    .tituloLogo{
-        font-size: 1rem;
-        font-weight: normal;
-        color: #0B6374;
     }
 }

@@ -60,3 +60,9 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 430px){
+    .navBar{
+        width: 100%;
+    }
+}
