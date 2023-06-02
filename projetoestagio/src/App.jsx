@@ -1,4 +1,3 @@
-import styles from "./App.css";
 import Rotas from "./routes";
 import BarraAcessibilidade from "./components/BarraAcessibilidade";
 import Header from "./components/Header";
