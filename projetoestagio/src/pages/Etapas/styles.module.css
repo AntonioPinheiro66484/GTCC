@@ -119,3 +119,15 @@
         min-height: calc(100vh - 28.5rem);
     }
 }
+
+@media screen and (max-width: 430px) {
+    .paiItens{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 100%;
+        padding-bottom: 0;
+    }
+}
