@@ -17,9 +17,9 @@ const MenuOpcoes =()=>{
                 <div className={styles.caixaOpcoes} active={setBotaoOpcoes}>
                     <div className={styles.areaPuxar}></div>
                     <ul className={styles.paiItens}>
-                        <li><button className={styles.botaoItem}><Icon className={styles.imagemItem} icon="octicon:check-16"/>Marcar como concluída</button></li>
-                        <li><button className={styles.botaoItem}><Icon className={styles.imagemItem} icon="fluent:edit-28-regular"/>Editar</button></li>
-                        <li><button className={styles.botaoItem}><Icon className={styles.imagemItem} icon="radix-icons:trash"/>Excluir</button></li>
+                        <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="octicon:check-16"/>Marcar como concluída</button></li>
+                        <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="fluent:edit-28-regular"/>Editar</button></li>
+                        <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="radix-icons:trash"/>Excluir</button></li>
                     </ul>
                 </div>
             }
