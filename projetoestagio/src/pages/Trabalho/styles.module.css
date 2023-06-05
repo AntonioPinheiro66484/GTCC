@@ -21,6 +21,12 @@
     gap: 1.5rem;
 }
 
+.ladoCaixaBloco{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .bloco{
     display: flex;
     background-color: #fff;
@@ -30,7 +36,6 @@
     width: 100%;
     max-width: 18rem;
     flex-direction: column;
-    margin-bottom: 1.5rem;
     gap: 1rem;
 }
 
@@ -68,5 +73,16 @@
 @media screen and (max-width: 1024px) {
     .caixa{
         min-height: calc(100vh - 28.5rem);
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .caixaBloco{
+        flex-direction: column;
+    }
+
+    .ladoCaixaBloco{
+        align-items: center;
+        width: 100%;
     }
 }

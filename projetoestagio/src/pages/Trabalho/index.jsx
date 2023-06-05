@@ -10,7 +10,7 @@ const Trabalho =()=>{
                 <a href="/editar-trabalho" className={styles.linkEditar}><Icon className={styles.imagemEditar} icon="material-symbols:edit"/></a>
             </div>
             <div className={styles.caixaBloco}>
-                <div>
+                <div className={styles.ladoCaixaBloco}>
                     <div className={styles.bloco}>
                         <h2 className={styles.tituloBloco}>Tipo</h2>
                         <p className={styles.textoBloco}>Projeto web</p>
@@ -39,7 +39,7 @@ const Trabalho =()=>{
                         <p className={styles.textoBloco}>Etapa 4</p>
                     </div>
                 </div>
-                <div>
+                <div className={styles.ladoCaixaBloco}>
                     <div className={styles.bloco}>
                         <h2 className={styles.tituloBloco}>Descrição</h2>
                         <p className={styles.textoBloco}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
