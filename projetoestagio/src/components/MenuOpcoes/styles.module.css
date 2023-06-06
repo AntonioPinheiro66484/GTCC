@@ -4,6 +4,7 @@
     color: #333c;
     font-size: 1.75rem;
     display: flex;
+    cursor: pointer;
 }
 
 .sombra{
