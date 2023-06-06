@@ -1,30 +1,6 @@
-:root{
-    --text-color: #757575;
-    --main-title-color: rgb(51 51 51);
-    --block-title-color: #0b6374;
-    --background-color: #fff;
-    --button-color: rgb(0 92 110);
-    --round-button-color: #333c;
-    --button-hover-color: #2bb8c9;
-}
-
-:root.dark{
-    --text-color: #fff;
-    --main-title-color: #fff;
-    --block-title-color: #fff;
-    --background-color: #000;
-    --button-color: rgb(255 234 0);
-    --round-button-color: rgb(255 234 0);
-    --button-hover-color: rgb(255 234 0 / 0.8);
-}
-
-body.dark{
-    background-color: #000;
-}
-
 .barraAcessibilidade{
     display: flex;
-    background-color: #950202;
+    background-color: #2E4C99;
     align-items: center;
     justify-content: space-between;
     padding-block: 0.5rem;
