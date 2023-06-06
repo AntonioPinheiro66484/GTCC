@@ -14,13 +14,16 @@ const MenuOpcoes =()=>{
                 <Icon icon="mi:options-vertical"/>
             </button>
             {botaoOpcoes &&
-                <div className={styles.caixaOpcoes} active={setBotaoOpcoes}>
-                    <div className={styles.areaPuxar}></div>
-                    <ul className={styles.paiItens}>
-                        <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="octicon:check-16"/>Marcar como concluída</button></li>
-                        <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="fluent:edit-28-regular"/>Editar</button></li>
-                        <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="radix-icons:trash"/>Excluir</button></li>
-                    </ul>
+                <div>
+                    <div className={styles.sombra} onClick={showBotaoOpcoes}></div>
+                    <div className={styles.caixaOpcoes} active={setBotaoOpcoes}>
+                        <div className={styles.areaPuxar}></div>
+                        <ul className={styles.paiItens}>
+                            <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="octicon:check-16"/>Marcar como concluída</button></li>
+                            <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="fluent:edit-28-regular"/>Editar</button></li>
+                            <li><button className={styles.botaoItem}><Icon className={styles.iconeItem} icon="radix-icons:trash"/>Excluir</button></li>
+                        </ul>
+                    </div>
                 </div>
             }
         </div>
