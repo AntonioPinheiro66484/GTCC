@@ -11,14 +11,17 @@ const Integrantes =()=>{
                 <div className={styles.caixaBloco}>
                     <div className={styles.bloco}>
                         <h2 className={styles.tituloBloco}>Ana Fulana Lima</h2>
+                        <p className={styles.textoBloco}>Desenvolvimento de Software Multiplataforma • 2º Semestre</p>
                         <p className={styles.textoBloco}>ana.lima33@fatec.sp.gov.br</p>
                     </div>
                     <div className={styles.bloco}>
                         <h2 className={styles.tituloBloco}>Carlos Fulano Lima</h2>
-                        <p className={styles.textoBloco}>carlos.lima23@fatec.sp.gov.br</p>
+                        <p className={styles.textoBloco}>Desenvolvimento de Software Multiplataforma • 2º Semestre</p>
+                        <p className={styles.textoBloco}>carlos.lima23...</p>
                     </div>
                     <div className={styles.bloco}>
                         <h2 className={styles.tituloBloco}>João Fulano Lima</h2>
+                        <p className={styles.textoBloco}>Desenvolvimento de Software Multiplataforma • 2º Semestre</p>
                         <p className={styles.textoBloco}>joao.lima13@fatec.sp.gov.br</p>
                     </div>
                 </div>
