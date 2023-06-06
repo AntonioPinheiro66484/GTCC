@@ -23,7 +23,7 @@ const NavBarMobile =({active})=>{
                 <li className={styles.item}><a className={styles.linkItem} href="/solicitacoes"><Icon className={styles.iconeItem} icon="material-symbols:notifications-outline"/>Solicitações</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/tipos-de-trabalho"><Icon className={styles.iconeItem} icon="ph:squares-four-light"/>Tipos de trabalho</a></li>
                 <li className={styles.item}><a className={styles.linkItem} href="/login"><Icon className={styles.iconeItem} icon="ph:sign-in-light"/>Entrar</a></li>
-                <li className={styles.item}><a className={styles.linkItem} href="http://suporte.fateczl.edu.br"><Icon className={styles.iconeItem} icon="formkit:help"/>Suporte</a></li>
+                <li className={styles.item}><a className={styles.linkItem} href="http://suporte.fateczl.edu.br" target="_blank" rel="noopener noreferrer"><Icon className={styles.iconeItem} icon="formkit:help"/>Suporte</a></li>
             </ul>
         </nav>
     ) 
