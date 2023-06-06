@@ -1,13 +1,14 @@
 import React from "react"
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
+import MenuOpcoes from "../../components/MenuOpcoes"
 
 const Trabalho =()=>{
     return(
         <div className={styles.caixa}>
             <div className={styles.topoCaixa}>
                 <h1 className={styles.tituloPrincipal}>Site 1</h1>
-                <a href="/editar-trabalho" className={styles.linkEditar}><Icon className={styles.imagemEditar} icon="material-symbols:edit"/></a>
+                <MenuOpcoes/>
             </div>
             <div className={styles.caixaBloco}>
                 <div className={styles.ladoCaixaBloco}>
