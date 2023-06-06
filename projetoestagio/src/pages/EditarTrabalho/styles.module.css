@@ -22,7 +22,7 @@
     gap: 1rem;
 }
 
-.caixaInput, .caixaFieldset{
+.caixaInput, .caixaFieldset, .caixaTextarea{
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
@@ -31,9 +31,6 @@
 
 .caixaFieldset{
     border: none;
-}
-
-.caixaFieldset{
     min-width: 0;
 }
 
@@ -54,7 +51,11 @@
     font-weight: bold;
 }
 
-.input{
+.textarea{
+    resize: none;
+}
+
+.input, .textarea{
     background-color: #33333325;
     border: none;
     border-radius: 0.5rem;
