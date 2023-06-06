@@ -21,7 +21,7 @@
 
 .botaoPrincipal{
     display: flex;
-    background-color: #2BB8C9;
+    background-color: #2E4C99;
     border-radius: 50%;  
     color: #fff;
     padding: 0.5rem;
@@ -29,10 +29,6 @@
     font-size: 2rem;
     border: none;
     box-shadow: 0 0 14px #33333325;
-}
-
-.botaoPrincipal:hover{
-    background-color: #2BB8C9;
 }
 
 .botaoSecundario{
