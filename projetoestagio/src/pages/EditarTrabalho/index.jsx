@@ -35,13 +35,10 @@ const EditarTrabalho =()=>{
                     <label className={styles.labelPrincipal}>Orientador</label>
                     <input className={styles.input} type="text"/>
                 </div>
-                <div className={styles.caixaInput}>
+                <div className={styles.caixaTextarea}>
                     <label className={styles.labelPrincipal}>Descrição</label>
-                    <input className={styles.input} type="text"/>
+                    <textarea className={styles.textarea} type="text" rows="16"/>
                 </div>
-                <button className={styles.botaoAdicionar}>
-                    <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
-                </button>
                 <div className={styles.caixaBotao}>
                     <button className={styles.botao}>Salvar</button>
                     <button className={styles.botao}>Cancelar</button>
