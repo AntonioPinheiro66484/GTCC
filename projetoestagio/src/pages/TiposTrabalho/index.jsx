@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
+import MenuOpcoes from "../../components/MenuOpcoes";
 
 const TiposTrabalho =()=>{
     return (
@@ -14,13 +15,9 @@ const TiposTrabalho =()=>{
                         <p className={styles.textoBloco}>Cursos: ADS, DSM</p>
                     </div>
                     <div className={styles.caixaBotao}>
-                        <a href="./editar-tipo-de-trabalho"><button className={styles.botao}>Editar</button></a>
-                        <button className={styles.botao}>Excluir</button>
+                        <MenuOpcoes/>
                     </div>
                 </div>
-                <a href="./cadastrar-tipo-de-trabalho"><button className={styles.botaoAdicionar}>
-                    <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
-                </button></a>
             </div>
         </div>
     )
