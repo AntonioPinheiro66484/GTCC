@@ -7,4 +7,5 @@
 
 body {
   font-family: 'Roboto Slab', 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
