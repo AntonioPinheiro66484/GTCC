@@ -37,43 +37,48 @@ const Trabalho =()=>{
                         <ul className={styles.caixaItens}>
                             <li className={styles.item}>
                                 <div className={styles.blocoItem}>
-                                    <div className={styles.caixaBlocoItem}>
+                                    <div className={styles.numeroEtapa}>
                                         <p className={styles.textoBloco}>1</p>
                                     </div>
-                                    <div className={styles.caixaBlocoItem}>
-                                        <p className={styles.textoBloco}>Definição de identidade do projeto</p>
-                                        <p className={styles.textoBloco}>Entrega até 27 de março, segunda-feira</p>
-                                    </div>
-                                    <div className={styles.caixaBlocoItem}>
-                                        <p className={styles.textoBloco}>Concluída</p>
+                                    <div className={styles.informacaoEtapa}>
+                                        <div>
+                                            <p className={styles.textoBloco}>Definição de identidade do projeto</p>
+                                            <p className={styles.textoBloco}>Fechou em 27 de março</p>
+                                        </div>
+                                        <div>
+                                            <p className={styles.textoBloco}>Entregue</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
                             <li className={styles.item}>
                                 <div className={styles.blocoItem}>
-                                    <div className={styles.caixaBlocoItem}>
+                                    <div className={styles.numeroEtapa}>
                                         <p className={styles.textoBloco}>2</p>
                                     </div>
-                                    <div className={styles.caixaBlocoItem}>
-                                        <p className={styles.textoBloco}>Estudo de caso do tema escolhido</p>
-                                        <p className={styles.textoBloco}>Entrega até 29 de março, quarta-feira</p>
-                                    </div>
-                                    <div className={styles.caixaBlocoItem}>
-                                        <p className={styles.textoBloco}>Em andamento</p>
+                                    <div className={styles.informacaoEtapa}>
+                                        <div>
+                                            <p className={styles.textoBloco}>Estudo de caso do tema escolhido</p>
+                                            <p className={styles.textoBloco}>Entrega até 29 de março</p>
+                                        </div>
+                                        <div>
+                                            <p className={styles.textoBloco}>Em andamento</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
                             <li className={styles.item}>
                                 <div className={styles.blocoItem}>
-                                    <div className={styles.caixaBlocoItem}>
+                                    <div className={styles.numeroEtapa}>
                                         <p className={styles.textoBloco}>3</p>
                                     </div>
-                                    <div className={styles.caixaBlocoItem}>
-                                        <p className={styles.textoBloco}>Análise de solução proposta</p>
-                                        <p className={styles.textoBloco}>Entrega até 31 de março, segunda-feira</p>
-                                    </div>
-                                    <div className={styles.caixaBlocoItem}>
-                                        <p className={styles.textoBloco}>Não iniciada</p>
+                                    <div className={styles.informacaoEtapa}>
+                                        <div>
+                                            <p className={styles.textoBloco}>Análise de solução proposta</p>
+                                        </div>
+                                        <div>
+                                            <p className={styles.textoBloco}>Não iniciada</p>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
