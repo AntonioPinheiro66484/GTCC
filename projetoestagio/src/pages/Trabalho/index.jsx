@@ -34,10 +34,9 @@ const Trabalho =()=>{
                             <h2 className={styles.tituloBloco}>Etapas</h2>
                             <a  href="/etapas" className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
                         </div>
-                        <p className={styles.textoBloco}>Etapa 1</p>
-                        <p className={styles.textoBloco}>Etapa 2</p>
-                        <p className={styles.textoBloco}>Etapa 3</p>
-                        <p className={styles.textoBloco}>Etapa 4</p>
+                        <p className={styles.textoBloco}>1 - Definição de identidade do projeto</p>
+                        <p className={styles.textoBloco}>2 - Estudo de caso do tema escolhido</p>
+                        <p className={styles.textoBloco}>3 - Análise de solução proposta</p>
                     </div>
                 </div>
                 <div className={styles.ladoCaixaBloco}>
