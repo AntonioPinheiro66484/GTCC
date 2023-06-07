@@ -41,16 +41,6 @@ const Etapas =()=>{
                             <MenuOpcoes/>
                         </div>
                     </div>
-                    <div className={styles.bloco}>
-                        <div className={styles.caixaTexto}>
-                            <h2 className={styles.tituloBloco}>4 - Análise de solução proposta</h2>
-                            <p className={styles.textoBloco}>Entrega até 2 de março, domingo</p>
-                            <p className={styles.textoBloco}>Não iniciada</p>
-                        </div>
-                        <div className={styles.caixaBotao}>
-                            <MenuOpcoes/>
-                        </div>
-                    </div>
                     <button className={styles.botaoAdicionar}>
                         <Icon className={styles.imagemAdicionar} icon="ph:plus-circle"/>
                     </button>
