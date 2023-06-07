@@ -15,7 +15,7 @@ const MenuOpcoes =()=>{
             </button>
             {botaoOpcoes &&
                 <div>
-                    <div className={styles.sombra} onClick={showBotaoOpcoes}></div>
+                    <span className={styles.sombra} onClick={showBotaoOpcoes}></span>
                     <div className={styles.caixaOpcoes} active={setBotaoOpcoes}>
                         <div className={styles.areaPuxar}></div>
                         <ul className={styles.paiItens}>
