@@ -11,7 +11,7 @@ const NavBarMobile =({active})=>{
 
     return(
         <div>
-            <div className={styles.sombra} onClick={closeNavBar}></div>
+            <span className={styles.sombra} onClick={closeNavBar}></span>
             <nav className={styles.navBar} navBar={active}>
                 <div className={styles.topoNavBar}>
                     <Icon className={styles.menuHamburguer} icon="ic:baseline-menu" onClick={closeNavBar}/>
