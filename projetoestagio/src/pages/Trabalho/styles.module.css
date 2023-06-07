@@ -43,7 +43,7 @@
     justify-content: space-between;
 }
 
-.topoCaixa, .topoBloco{
+.topoCaixa, .topoBloco, .blocoItem{
     display: flex;
     align-items: center;
 }

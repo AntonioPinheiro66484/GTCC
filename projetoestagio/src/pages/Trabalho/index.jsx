@@ -34,9 +34,50 @@ const Trabalho =()=>{
                             <h2 className={styles.tituloBloco}>Etapas</h2>
                             <a  href="/etapas" className={styles.linkMaisDetalhes}><Icon className={styles.imagemMaisDetalhes} icon="material-symbols:info-outline"/></a>
                         </div>
-                        <p className={styles.textoBloco}>1 - Definição de identidade do projeto</p>
-                        <p className={styles.textoBloco}>2 - Estudo de caso do tema escolhido</p>
-                        <p className={styles.textoBloco}>3 - Análise de solução proposta</p>
+                        <ul className={styles.caixaItens}>
+                            <li className={styles.item}>
+                                <div className={styles.blocoItem}>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>1</p>
+                                    </div>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>Definição de identidade do projeto</p>
+                                        <p className={styles.textoBloco}>Entrega até 27 de março, segunda-feira</p>
+                                    </div>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>Concluída</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className={styles.item}>
+                                <div className={styles.blocoItem}>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>2</p>
+                                    </div>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>Estudo de caso do tema escolhido</p>
+                                        <p className={styles.textoBloco}>Entrega até 29 de março, quarta-feira</p>
+                                    </div>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>Em andamento</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li className={styles.item}>
+                                <div className={styles.blocoItem}>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>3</p>
+                                    </div>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>Análise de solução proposta</p>
+                                        <p className={styles.textoBloco}>Entrega até 31 de março, segunda-feira</p>
+                                    </div>
+                                    <div className={styles.caixaBlocoItem}>
+                                        <p className={styles.textoBloco}>Não iniciada</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div className={styles.ladoCaixaBloco}>
