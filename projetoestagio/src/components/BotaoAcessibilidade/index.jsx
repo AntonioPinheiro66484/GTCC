@@ -27,7 +27,7 @@ const BotaoAcessibilidade =()=>{
                     </button>
                 </li>
                 <li>
-                    <a className={styles.botaoSecundario} href="/acessibilidade">
+                    <a className={styles.botaoSecundario} href="/informacoes-sobre-acessibilidade">
                        <Icon icon="material-symbols:info-outline"/>
                     </a>
                 </li>

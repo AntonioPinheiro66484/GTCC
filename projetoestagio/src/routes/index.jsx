@@ -32,7 +32,7 @@ function Rotas() {
                 <Route path='/tipos-de-trabalho' element={<TiposTrabalho/>}/>
                 <Route path='/editar-tipo-de-trabalho' element={<EditarTipoTrabalho/>}/>
                 <Route path='/cadastrar-tipo-de-trabalho' element={<CadastrarTipoTrabalho/>}/>
-                <Route path='/acessibilidade' element={<Acessibilidade/>}/>
+                <Route path='/informacoes-sobre-acessibilidade' element={<Acessibilidade/>}/>
                 <Route path='/editar-etapa' element={<EditarEtapa/>}/>
             </Routes>
         </Router>
