@@ -12,11 +12,6 @@ const BotaoAcessibilidade =()=>{
         <div className={styles.caixa}>
             <ul className={botaoAcessibilidade ? styles.caixaOpcoesAtivado : styles.caixaOpcoesDesativado}>
                 <li>
-                    <button className={styles.botaoSecundario}>
-                        <Icon icon="material-symbols:contrast"/>
-                    </button>
-                </li>
-                <li>
                     <button onClick={aumentarFonte} className={styles.botaoSecundario}>
                         <Icon icon="fluent-mdl2:font-increase"/>
                     </button>
@@ -25,6 +20,16 @@ const BotaoAcessibilidade =()=>{
                     <button onClick={diminuirFonte} className={styles.botaoSecundario}>
                         <Icon icon="fluent-mdl2:font-decrease"/>
                     </button>
+                </li>
+                <li>
+                    <button className={styles.botaoSecundario}>
+                        <Icon icon="material-symbols:contrast"/>
+                    </button>
+                </li>
+                <li>
+                    <a className={styles.botaoSecundario} href="/acessibilidade">
+                       <Icon icon="material-symbols:info-outline"/>
+                    </a>
                 </li>
             </ul>
             <div className={styles.botaoPrincipal} onClick={showBotaoAcessibilidade}>
