@@ -30,24 +30,29 @@
     .caixa{
         justify-content: space-between;
         box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
-        padding: 1.5rem;
+        padding-block: 0.75rem;
+        padding-inline: 1.5rem;
     }
 
     .menuHamburguer{
         display: flex;
     }
 
-    .logoFatec{
+    .caixaLogo{
+        display: none;
+    }
+
+    /*.logoFatec{
         height: 2.5rem;
     }
     
     .logoGoverno{
         height: 2.5rem;
-    }
+    }*/
 }
 
-@media screen and (max-width: 430px) {
+/*@media screen and (max-width: 430px) {
     .logoGoverno{
         display: none;
     }
-}
+}*/
