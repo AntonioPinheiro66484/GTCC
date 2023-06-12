@@ -29,7 +29,7 @@ const Acessibilidade =()=>{
                 </div>
                 <div className={styles.bloco}>
                     <h2 className={styles.tituloBloco}>LIBRAS - Língua Brasileira de Sinais</h2>
-                    <p className={styles.textoBloco}>Este site é acessível em LIBRAS através do <a href="http://www.vlibras.gov.br/" target="_blank">VLibras</a>.</p>
+                    <p className={styles.textoBloco}>Este site é acessível em LIBRAS através do <a className={styles.link} href="http://www.vlibras.gov.br/" target="_blank" rel="noopener noreferrer">VLibras</a>.</p>
                     <p className={styles.textoBloco}>-Do lado direito de cada página do site existe o ícone de um Widget informando que o site é acessível em LIBRAS.</p>
                     <p className={styles.textoBloco}>-Para traduzir, basta clicar sobre o ícone e selecionar o texto que deseja traduzir.</p>
                 </div>

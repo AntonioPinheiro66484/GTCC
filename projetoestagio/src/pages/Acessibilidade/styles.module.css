@@ -44,6 +44,15 @@
     color: #757575;
 }
 
+.link{
+    text-decoration: none;
+    color: #4C7EFF;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1024px) {
     .caixa{
         min-height: calc(100vh - 27rem);
