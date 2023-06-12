@@ -4,7 +4,7 @@
     padding-inline: 1.5rem;
     align-items: center;
     flex-direction: column;
-    min-height: calc(100vh - 35rem);
+    min-height: calc(100vh - 36.5rem);
 }
 
 .tituloPrincipal{
@@ -100,6 +100,6 @@
 
 @media screen and (max-width: 1024px) {
     .caixa{
-        min-height: calc(100vh - 28.5rem);
+        min-height: calc(100vh - 27rem);
     }
 }
