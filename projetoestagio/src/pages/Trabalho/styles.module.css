@@ -1,7 +1,7 @@
 .caixa{
     padding-block: 2rem;
     padding-inline: 1.5rem;
-    min-height: calc(100vh - 36.5rem);
+    min-height: calc(100vh - 35rem);
 }
 
 .topoCaixa{
