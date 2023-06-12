@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 const Acessibilidade =()=>{
     return(
         <div className={styles.caixa}>
-            <h1 className={styles.tituloPrincipal}>Informações sobre acessibilidade</h1>
+            <h1 className={styles.tituloPrincipal}>Acessibilidade</h1>
             <div className={styles.caixaBloco}>
                 <div className={styles.bloco}>
                     <p className={styles.textoBloco}>Este site foi desenvolvido para que pessoas com deficiência visual, baixa visão, daltonismo, deficiência auditiva e mobilidade reduzida possam navegar por meio de recursos como alto contraste, aumento de fonte, teclas de atalho, tradução para a Língua Brasileira de Sinais e navegação por teclado.</p>
