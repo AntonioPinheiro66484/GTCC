@@ -5,15 +5,37 @@ const MapaFooter =()=>{
     return(
         <div className={styles.caixa}>
             <div className={styles.caixaLista}>
-                <h2 className={styles.tituloLista}>Trabalho</h2>
+                <h2 className={styles.tituloLista}>Área do aluno</h2>
                 <ul className={styles.lista}>
-                    <li><a className={styles.itemLista} href="/trabalho">Meu trabalho</a></li>
-                    <li><a className={styles.itemLista} href="/etapas">Etapas</a></li>
-                    <li><a className={styles.itemLista} href="/integrantes">Integrantes</a></li>
-                    <li><a className={styles.itemLista} href="/orientador">Orientador</a></li>
-                    <li><a className={styles.itemLista} href="/trabalhos">Trabalhos</a></li>
+                    <li><a className={styles.itemLista} href="/">Início</a></li>
+                    <li><a className={styles.itemLista} href="/trabalho">Trabalho</a></li>
+                    <li><a className={styles.itemLista} href="/orientadores">Orientadores</a></li>
+                    {/*<li><a className={styles.itemLista} href="/trabalhos">Trabalhos</a></li>*/}
                 </ul>
             </div>
+            <div className={styles.caixaLista}>
+                <h2 className={styles.tituloLista}>Área do orientador</h2>
+                <ul className={styles.lista}>
+                    <li><a className={styles.itemLista} href="/">Início</a></li>
+                    <li><a className={styles.itemLista} href="/trabalhos">Trabalhos</a></li>
+                    <li><a className={styles.itemLista} href="/solicitacoes">Solicitações</a></li>
+                </ul>
+            </div>
+            <div className={styles.caixaLista}>
+                <h2 className={styles.tituloLista}>Área do coordenador</h2>
+                <ul className={styles.lista}>
+                    <li><a className={styles.itemLista} href="/">Início</a></li>
+                    <li><a className={styles.itemLista} href="/trabalhos">Trabalhos</a></li>
+                    <li><a className={styles.itemLista} href="/orientadores">Orientadores</a></li>
+                    <li><a className={styles.itemLista} href="/tipos-de-trabalho">Tipos de trabalhos</a></li>
+                </ul>
+            </div>
+            <div className={styles.caixaLista}>
+                <h2 className={styles.tituloLista}>Entrar</h2>
+                <ul className={styles.lista}>
+                    <li><a className={styles.itemLista} href="/login" target="_blank" rel="noopener noreferrer">Fazer login</a></li>
+                </ul>
+            </div>  
             <div className={styles.caixaLista}>
                 <h2 className={styles.tituloLista}>Suporte</h2>
                 <ul className={styles.lista}>
