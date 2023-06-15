@@ -6,8 +6,8 @@ import LogoGoverno from "../../assets/images/LogoGovernoeCps.png";
 const LogosFooter =()=>{
     return(
         <div className={styles.caixa}>
-            <img className={styles.logoFatec} src={LogoFatec}/>
-            <img className={styles.logoGoverno} src={LogoGoverno}/>
+            <img className={styles.logoFatec} src={LogoFatec} alt={"Logo da Fatec"}/>
+            <img className={styles.logoGoverno} src={LogoGoverno} alt={"Logo do governo"}/>
         </div>
     )
 }
