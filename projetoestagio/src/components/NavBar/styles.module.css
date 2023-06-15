@@ -1,5 +1,5 @@
 .navBar{
-    display: flex;
+    display: none;
     justify-content: center;
     background-color: #fff;
     padding: 0.5rem;
