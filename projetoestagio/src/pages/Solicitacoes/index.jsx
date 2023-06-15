@@ -5,7 +5,7 @@ import BarraPesquisa from "../../components/BarraPesquisa";
 const Solicitacoes =()=>{
     return(
         <div>
-            <BarraPesquisa/>
+            {/*<BarraPesquisa/>*/}
             <div className={styles.caixa}>
                 <h1 className={styles.tituloPrincipal}>Solicitações</h1>
                 <div className={styles.caixaBloco}>

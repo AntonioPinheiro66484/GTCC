@@ -7,7 +7,7 @@ import MenuOpcoes from "../../components/MenuOpcoes";
 const Etapas =()=>{
     return(
         <div>
-            <BarraPesquisa/>
+            {/*<BarraPesquisa/>*/}
             <div className={styles.caixa}>
                 <h1 className={styles.tituloPrincipal}>Etapas</h1>
                 <div className={styles.caixaBloco}>

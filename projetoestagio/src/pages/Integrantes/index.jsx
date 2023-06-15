@@ -5,7 +5,7 @@ import BarraPesquisa from "../../components/BarraPesquisa";
 const Integrantes =()=>{
     return(
         <div>
-            <BarraPesquisa/>
+            {/*<BarraPesquisa/>*/}
             <div className={styles.caixa}>
                 <h1 className={styles.tituloPrincipal}>Integrantes</h1>
                 <div className={styles.caixaBloco}>
