@@ -1,6 +1,8 @@
 .caixa{
     display: flex;
     justify-content: center;
+    width: 100%;
+    max-width: 35rem;
     padding: 0.75rem;
 }
 
@@ -9,12 +11,14 @@
     background-color: #33333325;
     border: none;
     border-radius: 0.5rem;
-    width: 300px;
+    /*width: 300px;*/
+    width: 100%;
     outline: none;
 }
 
 .searchInput{
-    width: 90%;
+    /*width: 90%;*/
+    width: 100%;
     padding-block: 0.5rem;
     padding-left: 0.75rem;
     outline: none;
