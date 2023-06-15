@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
-import Logo3 from "../../assets/images/Logo3.png";
+/*import Logo3 from "../../assets/images/Logo3.png";*/
 
 const NavBarMobile =({active})=>{
 
