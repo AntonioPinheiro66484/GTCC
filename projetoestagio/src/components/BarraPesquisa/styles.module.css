@@ -1,10 +1,10 @@
-.caixa{
+/*.caixa{
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 35rem;
     padding: 0.75rem;
-}
+}*/
 
 .searchBar{
     display: flex;
@@ -13,6 +13,7 @@
     border-radius: 0.5rem;
     /*width: 300px;*/
     width: 100%;
+    max-width: 35rem;
     outline: none;
 }
 
