@@ -10,14 +10,14 @@ import InfoFooter from "./components/InfoFooter";
 function App() {
     return (
         <div className="App">
-            <BarraAcessibilidade/>
+            {/*<BarraAcessibilidade/>*/}
             <Header/>
             <BotaoAcessibilidade/>
             <NavBar/>
             <Rotas/>
-            <MapaFooter/>
+            {/*<MapaFooter/>
             <LogosFooter/>
-            <InfoFooter/>
+            <InfoFooter/>*/}
         </div>
     )
 }
