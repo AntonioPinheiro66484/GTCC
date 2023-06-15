@@ -33,7 +33,7 @@ const BotaoAcessibilidade =()=>{
                 </li>
             </ul>
             <div className={styles.botaoPrincipal} onClick={showBotaoAcessibilidade}>
-                <Icon icon="lucide:person-standing"/>
+                <Icon icon="fluent:accessibility-48-regular" />
             </div>
         </div>
     )
