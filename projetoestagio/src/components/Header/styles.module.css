@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*padding: 2rem;*/
     padding-block: 0.5rem;
     padding-inline: 1rem;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
@@ -46,30 +45,11 @@
 @media screen and (max-width: 1024px) {
     .caixa{
         justify-content: space-between;
-        /*box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
-        padding-block: 0.75rem;
-        padding-inline: 1.5rem;*/
     }
-
     .menuHamburguer{
         display: flex;
     }
-
     .caixaLogo{
         display: none;
     }
-
-    /*.logoFatec{
-        height: 2.5rem;
-    }
-    
-    .logoGoverno{
-        height: 2.5rem;
-    }*/
 }
-
-/*@media screen and (max-width: 430px) {
-    .logoGoverno{
-        display: none;
-    }
-}*/

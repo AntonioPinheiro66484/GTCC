@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "./styles.module.css";
-// import BarraPesquisa from "../../components/BarraPesquisa";
 import { Icon } from "@iconify/react";
 import MenuOpcoes from "../../components/MenuOpcoes";
 
 const Etapas =()=>{
     return(
         <div>
-            {/*<BarraPesquisa/>*/}
             <div className={styles.caixa}>
                 <h1 className={styles.tituloPrincipal}>Etapas</h1>
                 <div className={styles.caixaBloco}>

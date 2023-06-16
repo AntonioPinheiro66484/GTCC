@@ -10,7 +10,6 @@ const MapaFooter =()=>{
                     <li><a className={styles.itemLista} href="/">Início</a></li>
                     <li><a className={styles.itemLista} href="/trabalho">Trabalho</a></li>
                     <li><a className={styles.itemLista} href="/orientadores">Orientadores</a></li>
-                    {/*<li><a className={styles.itemLista} href="/trabalhos">Trabalhos</a></li>*/}
                 </ul>
             </div>
             <div className={styles.caixaLista}>

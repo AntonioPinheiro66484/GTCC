@@ -32,7 +32,7 @@
     box-shadow: 0 0 14px #33333325;
     width: 18rem;
     padding: 1.5rem;
-    align-items: center;
+    /*align-items: center;*/
     flex-direction: column;
     gap: 1rem;
 }

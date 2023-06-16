@@ -1,11 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
-// import BarraPesquisa from "../../components/BarraPesquisa";
 
 const Orientadores =()=>{
     return(
         <div>
-            {/*<BarraPesquisa/>*/}
             <div className={styles.caixa}>
                 <h1 className={styles.tituloPrincipal}>Orientadores</h1>
                 <div className={styles.caixaBloco}>
@@ -22,7 +20,7 @@ const Orientadores =()=>{
                     <div className={styles.bloco}>
                         <div className={styles.caixaTexto}>
                             <h2 className={styles.tituloBloco}>Edson Saraiva</h2>
-                            <p className={styles.textoBloco}>Área de conhecimento: Desenvolvimento Web</p>
+                            <p className={styles.textoBloco}>Área de conhecimento: Desenvolvimento web</p>
                             <p className={styles.textoBloco}>Disponibilidade: Tarde</p>
                         </div>
                         <div className={styles.caixaBotao}>

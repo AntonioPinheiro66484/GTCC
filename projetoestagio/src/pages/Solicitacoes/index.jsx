@@ -1,11 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
-/*import BarraPesquisa from "../../components/BarraPesquisa";*/
 
 const Solicitacoes =()=>{
     return(
         <div>
-            {/*<BarraPesquisa/>*/}
             <div className={styles.caixa}>
                 <h1 className={styles.tituloPrincipal}>Solicitações</h1>
                 <div className={styles.caixaBloco}>
@@ -23,7 +21,7 @@ const Solicitacoes =()=>{
                     <div className={styles.bloco}>
                         <div className={styles.caixaTexto}>
                             <h2 className={styles.tituloBloco}>Site 2</h2>
-                            <p className={styles.textoBloco}>PProjeto web • E-commerce de livros</p>
+                            <p className={styles.textoBloco}>Projeto web • E-commerce de livros</p>
                             <p className={styles.textoBloco}>Criado por Ana, Carlos, João</p>
                         </div>
                         <div className={styles.caixaBotao}>
