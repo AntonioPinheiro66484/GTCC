@@ -4,7 +4,7 @@ import Trabalho from "../pages/Trabalho";
 import Integrantes from "../pages/Integrantes";
 import Etapas from "../pages/Etapas";
 import Orientador from "../pages/Orientador";
-import Solicitacoes from "../pages/Solicitacoes";
+import Notificacoes from "../pages/Notificacoes";
 import Trabalhos from "../pages/Trabalhos";
 import EditarTrabalho from "../pages/EditarTrabalho";
 import Login from "../pages/Login";
@@ -24,7 +24,7 @@ function Rotas() {
                 <Route path="/integrantes" element={<Integrantes/>}/>
                 <Route path='/etapas' element={<Etapas/>}/>
                 <Route path='/orientador' element={<Orientador/>}/>
-                <Route path='/solicitacoes' element={<Solicitacoes/>}/>
+                <Route path='/notificacoes' element={<Notificacoes/>}/>
                 <Route path='/trabalhos' element={<Trabalhos/>}/>
                 <Route path='/editar-trabalho' element={<EditarTrabalho/>}/>
                 <Route path='/login' element={<Login/>}/>
