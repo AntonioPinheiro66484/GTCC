@@ -6,10 +6,10 @@ const BarraAcessibilidade =()=>{
     return(
         <div className={styles.barraAcessibilidade}>
             <ul className={styles.caixaItens}>
+                <li className={styles.item}>Alto contraste</li>
+                <li className={styles.item}><a className={styles.linkItem} href="/acessibilidade">Acessibilidade</a></li>
                 <li className={styles.item} onClick={aumentarFonte}>A+</li>
                 <li className={styles.item} onClick={diminuirFonte}>A-</li>
-                <li className={styles.item}>Alto contraste</li>
-                <li className={styles.item}><a className={styles.linkItem} href="/informacoes-sobre-acessibilidade">Informações sobre acessibilidade</a></li>
             </ul>
         </div>
     )
