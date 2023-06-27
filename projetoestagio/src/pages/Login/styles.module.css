@@ -57,12 +57,12 @@
     color: #757575;
 }
 
-.linkRecuperarConta{
+.link{
     text-decoration: none;
-    color: #4C7EFF;
+    color: #3D65CC;
 }
 
-.linkRecuperarConta:hover{
+.link:hover{
     text-decoration: underline;
 }
 
