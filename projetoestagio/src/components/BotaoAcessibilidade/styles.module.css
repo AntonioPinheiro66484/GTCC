@@ -54,3 +54,9 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .caixa{
+        bottom: calc(4.375rem + 0.75rem);
+    }
+}
