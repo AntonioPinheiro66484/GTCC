@@ -9,10 +9,10 @@ function App() {
     return (
         <div className="App">
             <NavBar/>
-            <main className="main">
+            <div className={styles.caixa}>
                 <Header/>
                 <Rotas/>
-            </main>
+            </div>
             <BotaoAcessibilidade/>
         </div>
     )
