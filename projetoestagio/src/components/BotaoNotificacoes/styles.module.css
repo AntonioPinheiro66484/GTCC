@@ -7,7 +7,7 @@
     cursor: pointer;
 }
 
-.sombra{
+/*.sombra{
     display: none;
     position: fixed;
     top: 0;
@@ -15,7 +15,7 @@
     height: 100vh;
     width: 100vw;
     z-index: 1;
-}
+}*/
 
 .caixaOpcoes{
     display: flex;
@@ -30,7 +30,7 @@
 }
 
 .tituloPrincipal{
-    color: rgb(51 51 51 / 1);
+    color: #0b6374;
     font-size: 1.5em;
     padding: 1rem;
 }
