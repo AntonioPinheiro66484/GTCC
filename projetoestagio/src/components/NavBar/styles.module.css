@@ -1,4 +1,4 @@
-.caixa{
+/*.caixa{
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
     width: 100vw;
     background-color: rgb(0, 0, 0, 0.2);
     z-index: 1;
-}
+}*/
 
 .navBar{
     display: flex;
@@ -31,7 +31,7 @@
     z-index: 2;
 }
 
-.topoNavBar{
+/*.topoNavBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@
 
 .logoImagem{
     height: 2.5rem;
-}
+}*/
 
 .paiItens{
     display: flex;
@@ -80,7 +80,7 @@
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
     .sombra{
         display: block;
     }
@@ -88,14 +88,14 @@
     .navBar{
         display: flex;
     }
-}
+}*/
 
 @media screen and (max-width: 430px){
-    .sombra{
+    /*.sombra{
         display: none;
     }
 
     .navBar{
         width: 100%;
-    }
+    }*/
 }
