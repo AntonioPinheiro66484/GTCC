@@ -7,7 +7,7 @@
     cursor: pointer;
 }
 
-.sombra{
+/*.sombra{
     display: none;
     position: fixed;
     top: 0;
@@ -16,7 +16,7 @@
     width: 100vw;
     background-color: rgb(0, 0, 0, 0.2);
     z-index: 1;
-}
+}*/
 
 .caixaOpcoes{
     position: absolute;
