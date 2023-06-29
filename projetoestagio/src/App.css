@@ -1,8 +1,13 @@
 .App {
   display: flex;
-  flex-direction: column-reverse;
 }
 
 .caixa {
   width: 100%;
+}
+
+@media screen and (max-width: 430px) {
+  .App {
+    flex-direction: column-reverse;
+  }
 }
