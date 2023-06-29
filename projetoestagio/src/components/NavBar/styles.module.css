@@ -17,9 +17,9 @@
 .navBar{
     display: flex;
     background-color: #fff;
-    position: fixed;
+    /*position: fixed;
     top: 0;
-    left: 0;
+    left: 0;*/
     width: 20rem;
     height: 100vh;
     padding-block: 0.5rem;
@@ -29,7 +29,7 @@
     /*box-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);*/
     border-right: 1px solid #ccc;
     overflow-y: auto;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 /*.topoNavBar{
