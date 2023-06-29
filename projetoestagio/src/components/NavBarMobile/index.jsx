@@ -2,21 +2,20 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
 
-const NavBarMobile =({active})=>{
-
-    const closeNavBar =()=>{
+const NavBarMobile =(/*{active}*/)=>{
+    /*const closeNavBar =()=>{
         active(false)
-    }
+    }*/
 
     return(
-        <div className={styles.caixa}>
-            <span className={styles.sombra} onClick={closeNavBar}></span>
-            <nav className={styles.navBar} navBar={active}>
-                <div className={styles.topoNavBar}>
+        /*<div className={styles.caixa}>
+            <span className={styles.sombra} onClick={closeNavBar}></span>*/
+            <nav className={styles.navBar} /*navBar={active}*/>
+                {/*<div className={styles.topoNavBar}>
                     <button className={styles.menuHamburguer} onClick={closeNavBar}>
                         <Icon icon="ic:baseline-menu"/>
                     </button>
-                </div>
+                </div>*/}
                 <ul className={styles.paiItens}>
                     <li className={styles.item}><a className={styles.linkItem} href="/trabalho"><Icon className={styles.iconeItem} icon="octicon:project-roadmap-24"/>Trabalho</a></li>
                     <li className={styles.item}><a className={styles.linkItem} href="/orientadores"><Icon className={styles.iconeItem} icon="mdi:human-male-board"/>Orientadores</a></li>
@@ -26,7 +25,7 @@ const NavBarMobile =({active})=>{
                     <li className={styles.item}><a className={styles.linkItem} href="http://suporte.fateczl.edu.br" target="_blank" rel="noopener noreferrer"><Icon className={styles.iconeItem} icon="formkit:help"/>Ajuda</a></li>
                 </ul>
             </nav>
-        </div>
+        /*</div>*/
     ) 
 }
 
