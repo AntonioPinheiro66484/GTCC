@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
 
-const NavBarMobile =(/*{active}*/)=>{
+const NavBar =(/*{active}*/)=>{
     /*const closeNavBar =()=>{
         active(false)
     }*/
@@ -29,4 +29,4 @@ const NavBarMobile =(/*{active}*/)=>{
     ) 
 }
 
-export default NavBarMobile
+export default NavBar
