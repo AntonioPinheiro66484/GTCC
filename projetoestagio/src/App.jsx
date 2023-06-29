@@ -1,3 +1,4 @@
+import "./App.css";
 import Rotas from "./routes";
 import BarraAcessibilidade from "./components/BarraAcessibilidade";
 import Header from "./components/Header";
@@ -7,10 +8,8 @@ import BotaoAcessibilidade from "./components/BotaoAcessibilidade";
 function App() {
     return (
         <div className="App">
-            <aside>
-                <NavBar/>
-            </aside>
-            <main>
+            <NavBar/>
+            <main className="main">
                 <Header/>
                 <Rotas/>
             </main>
