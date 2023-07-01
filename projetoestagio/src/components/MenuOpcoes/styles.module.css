@@ -1,7 +1,7 @@
 .botaoOpcoes{
     background-color: transparent;
     border: none;
-    color: #333c;
+    color: #757575;
     font-size: 1.75rem;
     display: flex;
     cursor: pointer;
@@ -76,7 +76,7 @@
 
     .areaPuxar{
         display: flex;
-        background-color: #333c;
+        background-color: #757575;
         border-radius: 0.25rem;
         width: 1.75rem;
         height: 0.25rem;
