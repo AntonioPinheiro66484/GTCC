@@ -1,4 +1,4 @@
-.searchBar{
+.searchBar {
     display: flex;
     /*background-color: #33333325;*/
     border: 1px solid #ccc;
@@ -12,7 +12,7 @@
     gap: 0.5rem;
 }
 
-.searchButton{
+.searchButton {
     display: flex;
     border-right: 0.5rem;
     justify-content: center;
@@ -20,13 +20,13 @@
     font-size: 1rem;
 }
 
-.searchInput{
+.searchInput {
     font-size: 1em;
     width: 100%;
     outline: none;
 }
 
-.searchButton, .searchInput{
+.searchButton, .searchInput {
     background-color: transparent;
     border: none;
     color: #757575;
