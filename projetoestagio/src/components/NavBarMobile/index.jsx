@@ -2,20 +2,20 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Icon } from "@iconify/react";
 
-const NavBar =(/*{active}*/)=>{
-    /*const closeNavBar =()=>{
+const NavBar =({active})=>{
+    const closeNavBar =()=>{
         active(false)
-    }*/
+    }
 
     return(
         /*<div className={styles.caixa}>
             <span className={styles.sombra} onClick={closeNavBar}></span>*/
             <nav className={styles.navBar} /*navBar={active}*/>
-                {/*<div className={styles.topoNavBar}>
+                <div className={styles.topoNavBar}>
                     <button className={styles.menuHamburguer} onClick={closeNavBar}>
                         <Icon icon="ic:baseline-menu"/>
                     </button>
-                </div>*/}
+                </div>
                 <ul className={styles.paiItens}>
                     <li className={styles.item}><a className={styles.linkItem} href="/trabalho"><Icon className={styles.iconeItem} icon="octicon:project-roadmap-24"/>Meu trabalho</a></li>
                     <li className={styles.item}><a className={styles.linkItem} href="/trabalhos"><Icon className={styles.iconeItem} icon="mdi:note-multiple-outline"/>Trabalhos</a></li>
